@@ -37,7 +37,6 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    'nuxt-purgecss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
