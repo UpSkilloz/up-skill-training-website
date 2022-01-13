@@ -1,0 +1,16 @@
+[
+  {
+    "name": "about-us",
+    "path": "/about-us",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\about-us.vue",
+    "chunkName": "pages/about-us",
+    "_name": "_352e866e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_23f2011c"
+  }
+]

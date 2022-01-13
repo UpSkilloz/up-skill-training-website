@@ -1,0 +1,32 @@
+{
+  "BackToTop": {
+    "description": "Auto imported from components/back-to-top.vue"
+  },
+  "CtaSection": {
+    "description": "Auto imported from components/cta-section.vue"
+  },
+  "FooterSection": {
+    "description": "Auto imported from components/footer-section.vue"
+  },
+  "IndexFeatures": {
+    "description": "Auto imported from components/index-features.vue"
+  },
+  "IndexHero": {
+    "description": "Auto imported from components/index-hero.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/navbar.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "PageHero": {
+    "description": "Auto imported from components/page-hero.vue"
+  },
+  "ScrollDown": {
+    "description": "Auto imported from components/scroll-down.vue"
+  },
+  "VertScroll": {
+    "description": "Auto imported from components/vert-scroll.vue"
+  }
+}
