@@ -10,15 +10,7 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-item href="/">Home</b-nav-item>
           <b-nav-item href="/about-us">About Us</b-nav-item>
-
-          <b-nav-item-dropdown right>
-            <!-- Using 'button-content' slot -->
-            <template #button-content>
-              <em>Courses</em>
-            </template>
-            <b-dropdown-item href="#">Course One</b-dropdown-item>
-            <b-dropdown-item href="#">Course Two</b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-nav-item href="/courses">Courses</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

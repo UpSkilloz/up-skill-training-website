@@ -1,6 +1,5 @@
 <template>
   <div>
-    <page-hero />
     <div class="container">
       <b-row class="mt-5">
         <b-col sm="12" md="6" class="mb-5">
@@ -88,10 +87,8 @@
 </template>
 
 <script>
-import pageHero from '~/components/page-hero.vue'
 export default {
-  components: { pageHero },
-  layout: 'page',
+  layout: 'page-layout',
 }
 </script>
 

@@ -2,7 +2,7 @@
   <div>
     <section class="page-hero">
       <div class="container">
-        <h4>{{ $nuxt.$route.name.replace(/-/g, ' ') }}</h4>
+        <slot></slot>
       </div>
     </section>
   </div>
