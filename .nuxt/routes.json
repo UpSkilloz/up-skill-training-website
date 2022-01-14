@@ -7,6 +7,13 @@
     "_name": "_352e866e"
   },
   {
+    "name": "contact",
+    "path": "/contact",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_799581c0"
+  },
+  {
     "name": "courses",
     "path": "/courses",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\courses.vue",

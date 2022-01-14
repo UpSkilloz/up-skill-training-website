@@ -2,9 +2,24 @@
   <div>
     <navbar />
     <page-hero>
-      <h4>
+      <div @click="goToPrev()" class="backBtn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          enable-background="new 0 0 24 24"
+          height="24px"
+          viewBox="0 0 24 24"
+          width="24px"
+          fill="#ffffff"
+        >
+          <rect fill="none" height="24" width="24" />
+          <g>
+            <polygon points="17.77,3.77 16,2 6,12 16,22 17.77,20.23 9.54,12" />
+          </g>
+        </svg>
+      </div>
+      <div class="course-title">
         {{ $nuxt.$route.path.replace(/-/g, ' ').replace(/\//g, ' - ') }}
-      </h4>
+      </div>
     </page-hero>
     <nuxt />
     <footer-section />
@@ -17,9 +32,28 @@ import navbar from '~/components/navbar.vue'
 import PageHero from '~/components/page-hero.vue'
 export default {
   components: { navbar, FooterSection, PageHero },
+  methods: {
+    goToPrev() {
+      this.$router.go(-1)
+    },
+  },
 }
 </script>
 
 <style scoped>
 /* Styles */
+.backBtn,
+.course-title {
+  display: inline-block;
+}
+.backBtn {
+  border: 1px solid var(--colour-light);
+  padding: var(--space-sm);
+  border-radius: var(--space-sm);
+  cursor: pointer;
+}
+.backBtn:hover {
+  fill: var(--colour-secondary);
+  border: 1px solid var(--colour-secondary);
+}
 </style>

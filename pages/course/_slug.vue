@@ -53,6 +53,8 @@ export default {
 .profileHeroImage {
   width: 100%;
   max-height: 40vh;
+}
+.profileHero img {
   object-fit: cover;
   object-position: center center;
 }

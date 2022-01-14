@@ -2,7 +2,7 @@
 id: 2
 title: Prospecting for leads like a Pro
 snippet: oh I have a course throat..
-image:
+image: prospecting.webp
 ---
 
 Training sales teams effective prospecting skill serves to support an organisations marketing effort and give sales team members the skills required to independently add to keeping their pipeline full. Having a constant flow of new prospects is the lifeblood of a sales person’s career. Organizations that invest in this aspect of selling skills will set themselves apart from competitors with team of sales people able to find customers even when things are said to be quiet!

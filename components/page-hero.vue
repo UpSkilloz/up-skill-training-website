@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="page-hero">
-      <div class="container">
+      <div class="container flex flex-row">
         <slot></slot>
       </div>
     </section>

@@ -2,7 +2,7 @@
 id: 0
 title: Agile Selling
 snippet: Unlock the potential of your people
-image: course1.webp
+image: agile-selling.webp
 description: 'Unlock the potential of your people with our “Agile Selling” course. This course is designed to develop the required skills, knowledge and capabilities that allow your people to thrive in today’s competitive business environment delivering higher revenues and importantly increasing customer satisfaction.'
 overview: In today’s competitive business environment often products and services between providers are similar if not the same. Often the difference between winning the business is effective selling skills. A well-trained sales team will understand their sales cycle and its various components, recognise where customers are in the sales cycle, skilfully guide the customers from one phase of the cycle to the next, while overcoming objections, fulfilling requests for information and then close the sale delivering on all customer needs creating a win/win outcome. Our “Agile Selling” course helps participants develop the required skills, knowledge, and attitudes to handle all customer interactions efficiently, professionally delivering positive outcomes for all parties while increasing your profits.
 attendees:

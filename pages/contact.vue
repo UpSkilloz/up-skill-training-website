@@ -1,0 +1,79 @@
+<template>
+  <div>
+    <div class="contactHero">
+      <div class="row">
+        <div class="col-6">
+          <div
+            class="contactQuote d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5>My optimism wears heavy boots and is loud.</h5>
+            <div class="quoteAuthor">Henry Rollins</div>
+          </div>
+        </div>
+        <div class="col-6"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row contact-wrapper">
+        <div class="col-sm-12 col-md-6">
+          <div class="contactSummary">
+            <h4>Contact Us</h4>
+            <p>
+              something catchy here to get the user to contact up skill now,
+              rather than looking elsewhere and shopping around...
+            </p>
+            <p>Contact details will be here.. telephone, address email etc..</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="contactForm">Contact Form will go here</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  layout: 'page-layout',
+}
+</script>
+
+<style scoped>
+/* Styles */
+.contactHero {
+  width: 100%;
+  height: 40vh;
+  background: url('@/static/images/contact.webp') center right no-repeat;
+  background-size: cover;
+  box-shadow: -4000px -4000px inset rgba(var(--colour-primary-rgb), var(--alpha-60));
+}
+.contactQuote {
+  width: 100%;
+  height: 30vh;
+  color: var(--colour-light);
+  font-weight: 900;
+  text-align: center;
+}
+.contactQuote::before,
+.contactQuote::after {
+  content: '"';
+  font-size: 2em;
+}
+.quoteAuthor {
+  font-size: 1em;
+  text-align: right;
+  align-self: flex-end;
+}
+.contactSummary,
+.contactForm {
+  background: var(--colour-light);
+  border-radius: var(--space-sm);
+  padding: var(--space-md);
+  box-shadow: 0 0 12px rgba(var(--colour-dark-rgb), var(--alpha-30));
+  margin-bottom: var(--space-md);
+}
+.contact-wrapper {
+  margin-top: -70px;
+}
+</style>

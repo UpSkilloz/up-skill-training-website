@@ -2,7 +2,7 @@
 id: 3
 title: Closing the Sale
 snippet: Sales people need to be calm confidant, and direct with their intention making it easier for your customers to say yes!
-image: course5.webp
+image: closing-sale.webp
 ---
 
 A sales person’s ability to close a sale will determine if all the hard work in the lead up will pay off. Many hours and thousands of dollars are invested in advertising, taking calls, making calls, setting appointments, rescheduling appointments, and preparing presentations and proposals and often Sales People fall over at the last hurdle. When it comes to asking for the order or closing the sale your Sales people need to be calm confidant, and direct with their intention making it easier for your customers to say yes!

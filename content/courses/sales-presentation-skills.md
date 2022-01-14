@@ -2,7 +2,7 @@
 id: 1
 title: Sales Presentation Skills
 snippet: A horse is a horse of course of course...
-image: course2.webp
+image: sales-presentation.webp
 ---
 
 Sales People with the skills to create well-designed sales presentation that demonstrate how your organization will solve its customers problems are the key to winning more business. However, it can often take many years of trial and error to perfect effective sales presentation skills. Our Sales Presentations Skills course is designed to teach participants this vital skill in just one day! After attending Participants will have the ability to create winning proposals that include all the right information, motivating your clients to want to sign on the dotted line.

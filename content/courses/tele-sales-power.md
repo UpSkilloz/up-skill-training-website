@@ -2,7 +2,7 @@
 id: 1
 title: Tele Sales Power
 snippet: A horse is a horse of course of course...
-image: course2.webp
+image: tele-sales.webp
 ---
 
 Used correctly, the humble telephone has stood the test of time when it come to generating sales revenues. Regardless of the medium used to attract new customers, at some point someone must pick up the telephone and have a conversation. It’s the quality of that conversation that will ultimately determine if someone making an enquiry will turn into a paying customer. Our Tele sale Power course is an interactive, and fun experience where participants learn how to quickly identify the nature of an inquiry and how to effectively guide an inquiry to a closed sale with a win/win outcome.
