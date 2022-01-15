@@ -20,13 +20,13 @@
               class="card-img-top"
               alt="..."
             />
-            <div class="card-body">
+            <div class="card-body d-flex flex-column">
               <h5>{{ course.title }}</h5>
               <p class="card-text">
                 {{ course.snippet }}
               </p>
+              <div class="courseBtn mt-auto">Find Out More</div>
             </div>
-            <div class="card-footer">click here...</div>
           </div>
         </nuxt-link>
       </div>
@@ -51,8 +51,31 @@ export default {
   width: 100px;
   height: auto;
 }
+.card {
+  height: 100%;
+}
 .card-img-top {
   max-height: 130px;
   object-fit: cover;
+}
+.card-body h5 {
+  color: var(--colour-primary);
+  font-weight: 400;
+}
+.card-text {
+  color: var(--colour-grey);
+  font-size: 0.8em;
+}
+.courseBtn {
+  background: var(--colour-light);
+  border: 1px solid var(--colour-primary);
+  color: var(--colour-primary);
+  padding: var(--space-sm);
+  border-radius: 4px;
+  text-align: center;
+}
+.courseBtn:hover {
+  background: var(--colour-primary);
+  color: var(--colour-light);
 }
 </style>

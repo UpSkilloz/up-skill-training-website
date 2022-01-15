@@ -25,7 +25,7 @@
       </h4>
       <ul>
         <li>
-          {{ course.attendees[0] }}
+          {{ course.attendees }}
         </li>
       </ul>
     </div>
