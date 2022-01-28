@@ -3,35 +3,30 @@
     "name": "about-us",
     "path": "/about-us",
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
-    "chunkName": "pages/about-us",
-    "_name": "_251f9196"
+    "chunkName": "pages/about-us"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_3f427198"
+    "chunkName": "pages/contact"
   },
   {
     "name": "courses",
     "path": "/courses",
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\courses.vue",
-    "chunkName": "pages/courses",
-    "_name": "_38eae530"
+    "chunkName": "pages/courses"
   },
   {
     "name": "course-slug",
     "path": "/course/:slug?",
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
-    "chunkName": "pages/course/_slug",
-    "_name": "_3bee0cf2"
+    "chunkName": "pages/course/_slug"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2d5e054a"
+    "chunkName": "pages/index"
   }
 ]

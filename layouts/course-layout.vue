@@ -17,9 +17,7 @@
           </g>
         </svg>
       </div>
-      <div class="course-title">
-        {{ $nuxt.$route.path.replace(/-/g, ' ').replace(/\//g, ' - ') }}
-      </div>
+      <div class="course-title">{{ $nuxt.$route.path.replace(/-/g, ' ').replace(/\//g, ' - ') }}</div>
     </page-hero>
     <nuxt />
     <footer-section />
@@ -47,13 +45,7 @@ export default {
   display: inline-block;
 }
 .backBtn {
-  border: 1px solid var(--colour-light);
   padding: var(--space-sm);
-  border-radius: var(--space-sm);
   cursor: pointer;
-}
-.backBtn:hover {
-  fill: var(--colour-secondary);
-  border: 1px solid var(--colour-secondary);
 }
 </style>

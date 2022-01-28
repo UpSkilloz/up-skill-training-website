@@ -1,21 +1,15 @@
 <template>
   <div class="hero">
-    <div
-      class="viewpoint d-flex flex-column justify-content-around align-items-center"
-    >
-      <img src="@/static/images/logo_icon.svg" alt="" class="heroIcon" />
-      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">
-        Up Skill Training
-      </h1>
+    <div class="viewpoint d-flex flex-column justify-content-around align-items-center">
+      <img src="@/static/images/logo_icon.svg" alt class="heroIcon" />
+      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">Upskill Training</h1>
       <h3
         style="text-align: center; max-width: 50%"
         class="animate__animated animate__fadeIn animate__delay-1s"
-      >
-        Australia’s Premier Sales Training company
-      </h3>
-      <div class="ctaButton animate__animated animate__tada animate__delay-2s">
-        Click Here for your Future!
-      </div>
+      >“Delivering high performance sales training”</h3>
+      <div
+        class="ctaButton animate__animated animate__tada animate__delay-2s"
+      >Click Here for your Future!</div>
       <scroll-down />
     </div>
   </div>

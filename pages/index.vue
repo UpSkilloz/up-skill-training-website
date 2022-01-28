@@ -5,11 +5,15 @@
     <div class="container">
       <div class="section intro pt-5" id="introduction">
         <p>
-          At Up Skill Training we design and deliver training programs for your
-          sales team. With 27 years of real-world experience in the sales
-          profession we have developed an in depth understanding of the key
-          elements required for success as a sales professional in today's
-          competitive business environment.
+          At Upskill Training we design and deliver sales training programs that inspire sales teams to achieve greatness.
+          </p>
+          <p>Is your sales team:</p>
+          <ul>
+            <li>Underperforming and not hitting their KPI’s?</li>
+            <li>Underdelivering and suffer from a low close rate?</li>
+            <li>Uninspired and just going through the motions?</li>
+            <li>Caught up in the blame game. Blaming the leads, the economy, Covid Etc.</li>
+          </ul>
         </p>
       </div>
     </div>
