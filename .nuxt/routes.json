@@ -2,31 +2,31 @@
   {
     "name": "about-us",
     "path": "/about-us",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\about-us.vue",
     "chunkName": "pages/about-us"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\contact.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact"
   },
   {
     "name": "courses",
     "path": "/courses",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\courses.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\courses.vue",
     "chunkName": "pages/courses"
   },
   {
     "name": "course-slug",
     "path": "/course/:slug?",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\course\\\\_slug.vue",
     "chunkName": "pages/course/_slug"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\index.vue",
     "chunkName": "pages/index"
   }
 ]
