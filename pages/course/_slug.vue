@@ -23,9 +23,9 @@
       <h4 class="profile-title">
         Who should attend the “Advanced Sales” training course?
       </h4>
-      <ul>
+      <ul v-for="course in course.attendees" :key="course.title" class="m-0">
         <li>
-          {{ course.attendees }}
+          {{ course }}
         </li>
       </ul>
     </div>
@@ -61,13 +61,12 @@ export default {
 .intro {
   color: var(--colour-grey);
   font-style: italic;
-}
-.profile-title {
-  font-weight: 800;
+  background: rgba(var(--colour-primary-rgb), var(--alpha-10));
+  padding: var(--space-md);
 }
 .attendees {
   background: rgba(var(--colour-secondary-rgb), var(--alpha-30));
-  padding: var(--space-md);
+  padding: var(--space-lg);
   font-style: italic;
 }
 </style>
