@@ -54,8 +54,8 @@
         <h3>Contact:</h3>
         <div class="footer-tel mb-3">1300 144 838</div>
         <div class="footer-address mb-3">
-          234 Street Road
-          <br />Suburb, State, 3999
+          5 Everage Street
+          <br />Moonee Ponds VIC 3039
         </div>
         <div class="footer-socials d-flex justify-content-around align-items-center">
           <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

@@ -1,5 +1,5 @@
 ---
-id: 1
+id: 5
 title: Tele Sales Power
 snippet: A horse is a horse of course of course...
 image: tele-sales.webp
@@ -37,5 +37,5 @@ The Tele Sales Power Training Program give participants the skills required to:
 
 We understand that your time is precious and therefore very flexible when it comes to course delivery. We can tailor programs in length from 1 – 3 days depending on your requirements.
 
-In person: Upskill can deliver any of our training course on site at your premises if you have suitable facilities or we can discuss off site venues.
+In person: UpSkill can deliver any of our training course on site at your premises if you have suitable facilities or we can discuss off site venues.
 Virtual: Our course can also be delivered virtually via zoom, Microsoft office teams or team viewer.

@@ -1,5 +1,5 @@
 ---
-id: 3
+id: 0
 title: Closing Skills
 snippet: Sales people need to be calm confidant, and direct with their intention making it easier for your customers to say yes!
 image: closing-sale.webp
@@ -31,6 +31,6 @@ Participants that graduate from the Closing Skills course will learn.
 
 We understand that your time is precious and therefore very flexible when it comes to course delivery. We can tailor programs in length from 1 – 3 days depending on your requirements.
 
-In person: Upskill can deliver any of our training course on site at your premises if you have suitable facilities or we can discuss off site venues.
+In person: UpSkill can deliver any of our training course on site at your premises if you have suitable facilities or we can discuss off site venues.
 
 Virtual: Our course can also be delivered virtually via zoom, Microsoft office teams or team viewer.

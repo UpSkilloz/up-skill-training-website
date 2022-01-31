@@ -33,5 +33,5 @@ Participants that graduate from the “Presentation Skills” course will:
 
 We understand that your time is precious and therefore very flexible when it comes to course delivery. We can tailor programs in length from 1 – 3 days depending on your requirements.
 
-In person: Upskill can deliver any of our training course on site at your premises if you have suitable facilities or we can discuss off site venues.
+In person: UpSkill can deliver any of our training course on site at your premises if you have suitable facilities or we can discuss off site venues.
 Virtual: Our course can also be delivered virtually via zoom, Microsoft office teams or team viewer.

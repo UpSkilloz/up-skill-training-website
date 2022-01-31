@@ -22,9 +22,7 @@
             />
             <div class="card-body d-flex flex-column">
               <h5>{{ course.title }}</h5>
-              <p class="card-text">
-                {{ course.snippet }}
-              </p>
+              <p class="card-text">{{ course.snippet }}</p>
               <div class="courseBtn mt-auto">Find Out More</div>
             </div>
           </div>
@@ -38,7 +36,7 @@
 export default {
   layout: 'page-layout',
   async asyncData({ $content }) {
-    const courses = await $content('courses').sortBy('title', 'asc').fetch()
+    const courses = await $content('courses').sortBy('id', 'asc').fetch()
 
     return { courses }
   },

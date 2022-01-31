@@ -24,7 +24,6 @@ export default {}
   background-size: cover;
   box-shadow: 4000px 4000px inset
     rgba(var(--colour-primary-rgb), var(--alpha-70));
-  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
   color: var(--colour-light);
 }
 .ctaSection h2 {

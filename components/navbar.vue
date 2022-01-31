@@ -1,7 +1,7 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="none">
-      <b-navbar-brand href="/">Up Skill Training</b-navbar-brand>
+    <b-navbar toggleable="lg" type="light" variant="none">
+      <b-navbar-brand href="/">UpSkill Training</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -10,6 +10,7 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-item href="/">Home</b-nav-item>
           <b-nav-item href="/courses">Courses</b-nav-item>
+          <b-nav-item href="/howitworks">Our Approach</b-nav-item>
           <b-nav-item href="/trainers">Trainers</b-nav-item>
           <b-nav-item href="/about-us">About Us</b-nav-item>
           <b-nav-item href="/contact">Contact</b-nav-item>
@@ -25,8 +26,8 @@ export default {}
 <style scoped>
 .navbar {
   line-height: 3em;
-  background: var(--colour-primary);
-  color: var(--colour-light);
+  background: var(--colour-light);
+  color: var(--colour-primary);
 }
 .navbar.scrolled {
   background: yellow;
@@ -35,7 +36,7 @@ export default {}
   width: 100px;
   height: 60px;
   padding: 0 0 0 100px;
-  background: url('@/static/images/logo_icon_light.svg') center center no-repeat;
+  background: url('@/static/images/logo_icon.svg') center center no-repeat;
   object-fit: contain;
 }
 .navbar a {

@@ -1,46 +1,34 @@
 <template>
   <div class="hero">
-    <div
-      class="viewpoint d-flex flex-column justify-content-around align-items-center"
-    >
+    <div style="width:100%; height: 10vh; background: yellow;">hello</div>
+    <div class="viewpoint d-flex flex-column justify-content-around align-items-center">
       <img src="@/static/images/logo_icon.svg" alt class="heroIcon" />
-      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">
-        Upskill Training
-      </h1>
+      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">UpSkill Training</h1>
       <h3
         style="text-align: center; max-width: 50%"
         class="animate__animated animate__fadeIn animate__delay-1s"
-      >
-        “Delivering high performance sales training”
-      </h3>
-      <div class="ctaButton animate__animated animate__tada animate__delay-2s">
-        Click Here for your Future!
-      </div>
-      <scroll-down />
+      >“Delivering high performance sales training”</h3>
+      <div class="ctaButton animate__animated animate__tada animate__delay-2s">View our Courses</div>
     </div>
   </div>
 </template>
 
 <script>
-import scrollDown from './scroll-down.vue'
-export default {
-  components: { scrollDown },
-}
+export default {}
 </script>
 
 <style scoped>
 /* Styles */
 .hero {
   width: 100%;
-  height: 100%;
-  height: calc(100vh - 100px);
+  height: 50vh;
   background: url('@/static/images/hero.webp') center center no-repeat;
   background-size: cover;
   color: var(--colour-light);
-  clip-path: polygon(0 0%, 100% 0, 100% 80%, 0% 100%);
 }
 .hero img {
-  width: 30%;
+  width: 20%;
+  max-height: 200px;
   height: auto;
 }
 .heroIcon {
@@ -53,7 +41,7 @@ export default {
 }
 .viewpoint {
   width: 100%;
-  height: 100%;
+  height: 50vh;
   padding: var(--space-xlg) 0;
   background: rgba(var(--colour-primary-rgb), var(--alpha-70));
   color: white;
