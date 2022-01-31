@@ -2,36 +2,36 @@
   {
     "name": "about-us",
     "path": "/about-us",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\about-us.vue",
+    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
     "chunkName": "pages/about-us",
-    "_name": "_352e866e"
+    "_name": "_251f9196"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\contact.vue",
+    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_799581c0"
+    "_name": "_3f427198"
   },
   {
     "name": "courses",
     "path": "/courses",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\courses.vue",
+    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\courses.vue",
     "chunkName": "pages/courses",
-    "_name": "_733df558"
+    "_name": "_38eae530"
   },
   {
     "name": "course-slug",
     "path": "/course/:slug?",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\course\\\\_slug.vue",
+    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
     "chunkName": "pages/course/_slug",
-    "_name": "_79c94baf"
+    "_name": "_3bee0cf2"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Up Skill\\\\up-skill-training\\\\pages\\\\index.vue",
+    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_23f2011c"
+    "_name": "_2d5e054a"
   }
 ]
