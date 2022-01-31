@@ -21,6 +21,13 @@
     "_name": "_38eae530"
   },
   {
+    "name": "trainers",
+    "path": "/trainers",
+    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\trainers.vue",
+    "chunkName": "pages/trainers",
+    "_name": "_575001d4"
+  },
+  {
     "name": "course-slug",
     "path": "/course/:slug?",
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
