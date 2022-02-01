@@ -1,11 +1,13 @@
 export { default as BackToTop } from '../..\\components\\back-to-top.vue'
 export { default as CtaSection } from '../..\\components\\cta-section.vue'
+export { default as CtaVideo } from '../..\\components\\cta-video.vue'
 export { default as FooterSection } from '../..\\components\\footer-section.vue'
 export { default as IndexFeatures } from '../..\\components\\index-features.vue'
 export { default as IndexHero } from '../..\\components\\index-hero.vue'
 export { default as Navbar } from '../..\\components\\navbar.vue'
 export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
 export { default as PageHero } from '../..\\components\\page-hero.vue'
+export { default as ScheduleForm } from '../..\\components\\schedule-form.vue'
 export { default as ScrollDown } from '../..\\components\\scroll-down.vue'
 export { default as VertScroll } from '../..\\components\\vert-scroll.vue'
 

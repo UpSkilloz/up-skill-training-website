@@ -5,6 +5,9 @@
   "CtaSection": {
     "description": "Auto imported from components/cta-section.vue"
   },
+  "CtaVideo": {
+    "description": "Auto imported from components/cta-video.vue"
+  },
   "FooterSection": {
     "description": "Auto imported from components/footer-section.vue"
   },
@@ -22,6 +25,9 @@
   },
   "PageHero": {
     "description": "Auto imported from components/page-hero.vue"
+  },
+  "ScheduleForm": {
+    "description": "Auto imported from components/schedule-form.vue"
   },
   "ScrollDown": {
     "description": "Auto imported from components/scroll-down.vue"
