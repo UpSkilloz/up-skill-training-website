@@ -27,6 +27,7 @@
   --space-lg: 30px;
   --space-xlg: 60px;
   --space-xxlg: 150px;
+  --shadow-xsm: 0px 0px 1px var(--colour-grey);
   --shadow-sm: 0px 0px 3px var(--colour-grey);
   --shadow-md: 0px 0px 12px var(--colour-grey);
   --shadow-lg: 0px 0px 20px var(--colour-grey);
@@ -61,4 +62,46 @@ a:focus {
 }
 .section {
   padding: var(--space-lg) 0;
+}
+.ctaButton {
+  padding: var(--space-md);
+  background: none;
+  border: 2px solid var(--colour-secondary);
+  border-radius: var(--space-sm);
+  font-weight: 900;
+  color: var(--colour-secondary);
+  box-shadow: none;
+}
+.ctaButton:hover {
+  background: var(--colour-secondary);
+  border: 2px solid var(--colour-light);
+  color: var(--colour-light);
+}
+.ctaButton-dark {
+  padding: var(--space-md);
+  background: none;
+  border: 2px solid var(--colour-primary);
+  border-radius: var(--space-sm);
+  font-weight: 900;
+  color: var(--colour-primary);
+}
+.ctaButton-dark:hover {
+  background: var(--colour-primary);
+  border: 2px solid var(--colour-light);
+  color: var(--colour-light);
+  fill: var(--colour-primary);
+}
+.ctaButton-dark svg {
+  fill: var(--colour-primary);
+}
+.ctaButton-dark:hover svg {
+  fill: var(--colour-light);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: var(--colour-primary);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--colour-light);
+  background: var(--colour-secondary);
+  border-radius: var(--space-sm);
 }

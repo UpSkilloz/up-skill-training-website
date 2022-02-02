@@ -149,9 +149,11 @@ export default {
 }
 .featureItem {
   background: var(--colour-light);
-  padding: var(--space-md);
-  box-shadow: var(--shadow-sm);
+  padding: var(--space-md) var(--space-lg);
+  box-shadow: var(--shadow-xsm);
   margin-top: var(--space-md);
+  border-radius: var(--space-md);
+  text-align: center;
 }
 .featureItem svg {
   width: 70px;
@@ -163,7 +165,8 @@ export default {
   margin: var(--space-lg) 0;
   background: var(--colour-primary);
   color: var(--colour-light);
-  padding: var(--space-md);
+  padding: var(--space-md) var(--space-xlg);
+  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   .featureItem {

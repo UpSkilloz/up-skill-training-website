@@ -26,7 +26,7 @@
     <div class="features">
       <index-features />
     </div>
-    <div class="industries">
+    <div class="schedules-section" id="schedules">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-6 p-4">
@@ -40,18 +40,24 @@
     </div>
     <footer-section />
     <back-to-top />
-    <div>
-      Shit that needs doing with "schedule a consultation" top right, pop up
-      that asks for email, name, phone - sign up for newsletter - "receive a
+    <!-- <div>
+      Shit that needs doing with "schedule a consultation" top right
+
+      pop up that asks for email, name, phone - sign up for newsletter - "receive a
       weekly newsletter, outlining the latest techniques in sales and sales
-      management to help you build a high performance sales team." update the
-      spanglish to : "You have to train both your salespeople and the sales
-      managers who coach them" "High performance sales training" dropmenu for
-      courses... auto populate and also footer menu... get rid of industries...
-      leave some space there... add our approach page... make the features look
-      a little nicer... figure out how to add email address' to AWS Amplify -
-      route 53
-    </div>
+      management to help you build a high performance sales team." 
+
+      update the spanglish to : "You have to train both your salespeople and the sales
+      managers who coach them" "High performance sales training" 
+      
+      dropmenu for courses... auto populate and also footer menu... 
+
+      add our approach page... 
+
+      make the features look a little nicer... 
+      
+      figure out how to add email address' to AWS Amplify - route 53
+    </div>-->
   </div>
 </template>
 
@@ -80,11 +86,8 @@ export default {
 </script>
 <style scoped>
 /* Styles */
-.intro {
-  font-size: 1.3em;
-  font-weight: 100;
-}
-.industries {
+
+.schedule-section {
   height: auto;
 }
 </style>

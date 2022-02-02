@@ -17,6 +17,9 @@
   "IndexHero": {
     "description": "Auto imported from components/index-hero.vue"
   },
+  "NavbarSchedule": {
+    "description": "Auto imported from components/navbar-schedule.vue"
+  },
   "Navbar": {
     "description": "Auto imported from components/navbar.vue"
   },

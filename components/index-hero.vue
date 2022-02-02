@@ -1,36 +1,23 @@
 <template>
   <div class="hero">
-    <div class="schedule-bar">
-      <div class="container">
-        <div
-          class="scheduleWrapper d-flex justify-content-end align-items-center"
-        >
-          <div class="btn ctaButton">Schedule a Meeting</div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="viewpoint d-flex flex-column justify-content-around align-items-center"
-    >
-      <img src="@/static/images/logo_icon.svg" alt class="heroIcon" />
-      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">
-        UpSkill Training
-      </h1>
+    <navbar-schedule />
+    <div class="viewpoint d-flex flex-column justify-content-around align-items-center">
+      <img src="@/static/images/logo_icon_light.svg" alt class="heroIcon" />
+      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">UpSkill Training</h1>
       <h3
         style="text-align: center; max-width: 50%"
         class="animate__animated animate__fadeIn animate__delay-1s"
-      >
-        “Delivering high performance sales training”
-      </h3>
-      <div class="ctaButton animate__animated animate__tada animate__delay-2s">
-        View our Courses
-      </div>
+      >“Delivering high performance sales training”</h3>
+      <div class="ctaButton animate__animated animate__tada animate__delay-2s">View our Courses</div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import navbarSchedule from './navbar-schedule.vue'
+export default {
+  components: { navbarSchedule },
+}
 </script>
 
 <style scoped>
@@ -47,16 +34,7 @@ export default {}
   max-height: 200px;
   height: auto;
 }
-.schedule-bar {
-  height: 10vh;
-  width: 100%;
-  background: var(--colour-light);
-  border-top: 2px solid var(--colour-secondary);
-}
-.scheduleWrapper {
-  width: 100%;
-  height: 10vh;
-}
+
 .heroIcon {
   filter: drop-shadow(0 0 12px rgba(var(--colour-dark-rgb), var(--alpha-30)));
 }
@@ -71,12 +49,5 @@ export default {}
   padding: var(--space-xlg) 0;
   background: rgba(var(--colour-primary-rgb), var(--alpha-70));
   color: white;
-}
-.ctaButton {
-  padding: var(--space-md);
-  background: var(--colour-secondary);
-  border-radius: var(--space-sm);
-  font-weight: 900;
-  color: var(--color-light);
 }
 </style>

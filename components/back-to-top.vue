@@ -1,10 +1,7 @@
 <template>
   <client-only>
     <div v-show="isVisible" class="scrollup-button" @click="scrollToTop">
-      <img
-        src="~/static/images/icons/double-arrow-white.svg"
-        alt="back to top"
-      />
+      <img src="~/static/images/icons/double-arrow-white.svg" alt="back to top" />
     </div>
   </client-only>
 </template>

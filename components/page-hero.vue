@@ -18,7 +18,7 @@ export default {}
   width: 100%;
   height: auto;
   padding: var(--space-md) 0;
-  background: var(--colour-grey-dark);
+  background: var(--colour-primary);
   color: var(--colour-light);
   text-transform: uppercase;
   font-weight: 800;

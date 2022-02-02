@@ -12,6 +12,7 @@ You can directly use them in pages and other components without the need to impo
 - `<FooterSection>` | `<footer-section>` (components/footer-section.vue)
 - `<IndexFeatures>` | `<index-features>` (components/index-features.vue)
 - `<IndexHero>` | `<index-hero>` (components/index-hero.vue)
+- `<NavbarSchedule>` | `<navbar-schedule>` (components/navbar-schedule.vue)
 - `<Navbar>` | `<navbar>` (components/navbar.vue)
 - `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
 - `<PageHero>` | `<page-hero>` (components/page-hero.vue)

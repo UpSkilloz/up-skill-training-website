@@ -29,9 +29,4 @@ export default {}
 .ctaSection h2 {
   padding: var(--space-md);
 }
-.ctaButton {
-  padding: var(--space-md);
-  background: var(--colour-secondary);
-  color: var(--colour-light);
-}
 </style>
