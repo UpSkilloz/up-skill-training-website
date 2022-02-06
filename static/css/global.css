@@ -65,12 +65,15 @@ a:focus {
 }
 .ctaButton {
   padding: var(--space-md);
-  background: none;
+  color: var(--colour-secondary);
   border: 2px solid var(--colour-secondary);
   border-radius: var(--space-sm);
+  background: none;
+  font-size: clamp(0.5em, 0.5em + 1vw, 4em);
+  text-align: center;
   font-weight: 900;
-  color: var(--colour-secondary);
   box-shadow: none;
+  cursor: pointer;
 }
 .ctaButton:hover {
   background: var(--colour-secondary);
@@ -79,11 +82,14 @@ a:focus {
 }
 .ctaButton-dark {
   padding: var(--space-md);
-  background: none;
   border: 2px solid var(--colour-primary);
   border-radius: var(--space-sm);
-  font-weight: 900;
   color: var(--colour-primary);
+  background: none;
+  font-size: clamp(0.5em, 0.5em + 1vw, 4em);
+  text-align: center;
+  font-weight: 900;
+  cursor: pointer;
 }
 .ctaButton-dark:hover {
   background: var(--colour-primary);

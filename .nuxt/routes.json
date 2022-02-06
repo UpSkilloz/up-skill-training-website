@@ -2,37 +2,43 @@
   {
     "name": "about-us",
     "path": "/about-us",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
-    "chunkName": "pages/about-us"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
+    "chunkName": "pages/about-us",
+    "_name": "_5c47bdca"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_4109eee4"
   },
   {
     "name": "courses",
     "path": "/courses",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\courses.vue",
-    "chunkName": "pages/courses"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\courses.vue",
+    "chunkName": "pages/courses",
+    "_name": "_3ab2627c"
   },
   {
     "name": "trainers",
     "path": "/trainers",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\trainers.vue",
-    "chunkName": "pages/trainers"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\trainers.vue",
+    "chunkName": "pages/trainers",
+    "_name": "_0b802b4a"
   },
   {
     "name": "course-slug",
     "path": "/course/:slug?",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
-    "chunkName": "pages/course/_slug"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
+    "chunkName": "pages/course/_slug",
+    "_name": "_51d84dd3"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_a58734d4"
   }
 ]

@@ -1,4 +1,5 @@
 export { default as BackToTop } from '../..\\components\\back-to-top.vue'
+export { default as ContactForm } from '../..\\components\\contact-form.vue'
 export { default as CtaSection } from '../..\\components\\cta-section.vue'
 export { default as CtaVideo } from '../..\\components\\cta-video.vue'
 export { default as FooterSection } from '../..\\components\\footer-section.vue'

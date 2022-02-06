@@ -2,6 +2,9 @@
   "BackToTop": {
     "description": "Auto imported from components/back-to-top.vue"
   },
+  "ContactForm": {
+    "description": "Auto imported from components/contact-form.vue"
+  },
   "CtaSection": {
     "description": "Auto imported from components/cta-section.vue"
   },

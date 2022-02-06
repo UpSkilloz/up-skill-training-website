@@ -4,12 +4,12 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _251f9196 = () => interopDefault(import('..\\pages\\about-us.vue' /* webpackChunkName: "pages/about-us" */))
-const _3f427198 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
-const _38eae530 = () => interopDefault(import('..\\pages\\courses.vue' /* webpackChunkName: "pages/courses" */))
-const _575001d4 = () => interopDefault(import('..\\pages\\trainers.vue' /* webpackChunkName: "pages/trainers" */))
-const _3bee0cf2 = () => interopDefault(import('..\\pages\\course\\_slug.vue' /* webpackChunkName: "pages/course/_slug" */))
-const _2d5e054a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _5c47bdca = () => interopDefault(import('..\\pages\\about-us.vue' /* webpackChunkName: "pages/about-us" */))
+const _4109eee4 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
+const _3ab2627c = () => interopDefault(import('..\\pages\\courses.vue' /* webpackChunkName: "pages/courses" */))
+const _0b802b4a = () => interopDefault(import('..\\pages\\trainers.vue' /* webpackChunkName: "pages/trainers" */))
+const _51d84dd3 = () => interopDefault(import('..\\pages\\course\\_slug.vue' /* webpackChunkName: "pages/course/_slug" */))
+const _a58734d4 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -24,27 +24,27 @@ export const routerOptions = {
 
   routes: [{
     path: "/about-us",
-    component: _251f9196,
+    component: _5c47bdca,
     name: "about-us"
   }, {
     path: "/contact",
-    component: _3f427198,
+    component: _4109eee4,
     name: "contact"
   }, {
     path: "/courses",
-    component: _38eae530,
+    component: _3ab2627c,
     name: "courses"
   }, {
     path: "/trainers",
-    component: _575001d4,
+    component: _0b802b4a,
     name: "trainers"
   }, {
     path: "/course/:slug?",
-    component: _3bee0cf2,
+    component: _51d84dd3,
     name: "course-slug"
   }, {
     path: "/",
-    component: _2d5e054a,
+    component: _a58734d4,
     name: "index"
   }],
 

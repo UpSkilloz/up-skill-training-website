@@ -1,13 +1,23 @@
 <template>
-  <div class="scheduleForm">
-    <form action="https://form.taxi/s/frqx3fm5" method="POST">
+  <div>
+    <form action="https://form.taxi/s/tli2b882" method="POST">
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Name</label>
         <input
           type="text"
           name="Name"
-          id="exampleInputEmail1"
           class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Company</label>
+        <input
+          type="text"
+          name="Company"
+          class="form-control"
+          id="exampleInputEmail1"
           aria-describedby="emailHelp"
         />
       </div>
@@ -16,8 +26,32 @@
         <input
           type="email"
           name="Email"
-          id="exampleInputEmail1"
           class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"
+          >Contact Phone:</label
+        >
+        <input
+          type="text"
+          name="ContactPhone"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"
+          >How many people do you have to be trained?</label
+        >
+        <input
+          type="number"
+          name="Pax"
+          class="form-control"
+          id="exampleInputEmail1"
           aria-describedby="emailHelp"
         />
       </div>
@@ -29,11 +63,12 @@
           type="textarea"
           name="Help"
           rows="3"
-          id="exampleInputEmail1"
           class="form-control"
+          id="exampleInputEmail1"
           aria-describedby="emailHelp"
         />
       </div>
+
       <input
         type="submit"
         value="Send"
@@ -50,28 +85,4 @@ export default {}
 
 <style scoped>
 /* Styles */
-.scheduleForm {
-  width: 100%;
-  height: 100%;
-  background: var(--colour-grey-light);
-  padding: var(--space-md);
-}
-#ft-form input,
-#ft-form select,
-#ft-form textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.5em;
-  margin: 0;
-  padding: var(--space-sm) var(--space-md);
-  color: inherit;
-  width: 100%;
-  min-width: 300px;
-  border: none;
-  border-radius: var(--space-sm);
-}
-#ft-form input[type='submit'] {
-  background: var(--colour-primary);
-  color: var(--colour-light);
-}
 </style>

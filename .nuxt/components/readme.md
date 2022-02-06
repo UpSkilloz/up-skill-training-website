@@ -7,6 +7,7 @@ You can directly use them in pages and other components without the need to impo
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
 - `<BackToTop>` | `<back-to-top>` (components/back-to-top.vue)
+- `<ContactForm>` | `<contact-form>` (components/contact-form.vue)
 - `<CtaSection>` | `<cta-section>` (components/cta-section.vue)
 - `<CtaVideo>` | `<cta-video>` (components/cta-video.vue)
 - `<FooterSection>` | `<footer-section>` (components/footer-section.vue)
