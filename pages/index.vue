@@ -4,20 +4,18 @@
     <index-hero />
     <div class="container">
       <div class="section intro pt-5" id="introduction">
-        <h4>
-          At UpSkill Training we design and deliver sales training programs that
-          inspire sales teams to achieve greatness.
-        </h4>
-        <h5>Is your sales team:</h5>
-        <ul>
-          <li>Underperforming and not hitting their KPI’s?</li>
-          <li>Underdelivering and suffer from a low close rate?</li>
-          <li>Uninspired and just going through the motions?</li>
-          <li>
-            Caught up in the blame game. Blaming the leads, the economy, Covid
-            Etc.
-          </li>
-        </ul>
+        <h4>Develop a professional sales team of high performers!</h4>
+
+        <p>
+          Invest in skills based, high performance sales training for your whole organisation from sales reps to sales managers.
+          If you want to differentiate your business from your competitors and win more sales, than you must invest in effective skills-based sales training.
+        </p>
+
+        <p>That’s because today, business is more competitive than ever. Products and services can be easily copied, prices are often matched or beaten, and customers now have more tools available to them when it comes to educating themselves on buying decisions. When buyers are faced with similar products or services at similar prices, then the only real difference is how they feel during the sales process. Winning at that game comes down to the skill of the sales person!</p>
+
+        <p>Our skills-based sales training programs are custom designed for your business taking into consideration all the uniqueness that makes your business special. After attending our training program, your sales team will become the trusted experts in their field, acting with confidence and skill inspiring new and existing customers to do business with your company.</p>
+
+        <p>All sales training courses are designed to be interactive, engaging and fun, making learning fast and easy. Your sales team will develop key skills they can use immediately to increase revenues, increase customer satisfaction and give team members a greater feeling of job satisfaction. With ongoing positive reinforcement, the new sales skill will in time become a real competitive advantage, one that cannot be copied.</p>
       </div>
     </div>
     <div class="ctaSection">
@@ -40,86 +38,6 @@
     </div>
     <footer-section />
     <back-to-top />
-    <b-modal id="modal-1" hide-footer modal title="Requirements:">
-      <form action="https://form.taxi/s/frqx3fm5" method="POST">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Name</label>
-          <input
-            type="text"
-            name="Name"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Company</label>
-          <input
-            type="text"
-            name="Company"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >Email address</label
-          >
-          <input
-            type="email"
-            name="Email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >Contact Phone:</label
-          >
-          <input
-            type="text"
-            name="ContactPhone"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >How many people do you have to be trained?</label
-          >
-          <input
-            type="number"
-            name="Pax"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >How can we help?</label
-          >
-          <textarea
-            type="textarea"
-            name="Help"
-            rows="3"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-        </div>
-
-        <input
-          type="submit"
-          value="Send"
-          class="ctaButton-dark"
-          style="width: 100%"
-        />
-      </form>
-    </b-modal>
     <!-- <div>
       Shit that needs doing with "schedule a consultation" top right
 
@@ -166,7 +84,9 @@ export default {
 </script>
 <style scoped>
 /* Styles */
-
+.intro h4 {
+  font-weight: 700;
+}
 .schedule-section {
   height: auto;
 }

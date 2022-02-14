@@ -1,7 +1,7 @@
 <template>
   <div class="ctaSection">
     <div class="container d-flex flex-column justify-content-center align-items-center">
-      <h2>Call to Action Section:</h2>
+      <h2>Australia's Premier Sales Training Organisation</h2>
       <p>We have over 25 years of experience designing and delivering sales training programs in multiple industries and have produced amazing results. We have helped sales teams achieve, increased sales revenues, increased team moral, happier customers, higher close rates and created winning team cultures.</p>
       <p>Our unique approach blends the latest in learning and development practices and cutting edge sales modelling to create interactive, immersive and fun training programs that make sales people want to achieve!</p>
       <nuxt-link to="/courses">

@@ -19,16 +19,28 @@
       <h4 class="profile-title">Course Overview</h4>
       <p>{{ course.overview }}</p>
     </div>
-    <div v-if="course.attendees" class="attendees mb-4">
-      <h4 class="profile-title">
-        Who should attend the “Advanced Sales” training course?
-      </h4>
-      <ul v-for="course in course.attendees" :key="course.title" class="m-0">
-        <li>
-          {{ course }}
-        </li>
-      </ul>
+
+    <div class="row">
+      <div class="col-sm-12 col-lg-6 min">
+        <div v-if="course.receive" class="attendees mb-4">
+          <h4 class="profile-title">You Receive:</h4>
+          <ul v-for="course in course.receive" :key="course.title" class="m-0">
+            <li class="mt-2">{{ course }}</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-lg-6">
+        <div v-if="course.outcomes" class="outcomes mb-4">
+          <h4 class="profile-title">Course Outcomes:</h4>
+          <h5 class="mt-2 mb-4">Participants of the workshop will:</h5>
+          <ul v-for="course in course.outcomes" :key="course.title" class="m-0">
+            <li class="mt-2">{{ course }}</li>
+          </ul>
+        </div>
+      </div>
     </div>
+
     <nuxt-content :document="course" />
   </div>
 </template>
@@ -55,12 +67,13 @@ export default {
   max-height: 40vh;
 }
 .profileHero img {
-  object-fit: cover;
+  object-fit: contain;
   object-position: center center;
 }
 .intro {
-  color: var(--colour-grey);
+  color: var(--colour-grey-dark);
   font-style: italic;
+  line-height: 1.8em;
   background: rgba(var(--colour-primary-rgb), var(--alpha-10));
   padding: var(--space-md);
 }
@@ -68,5 +81,9 @@ export default {
   background: rgba(var(--colour-secondary-rgb), var(--alpha-30));
   padding: var(--space-lg);
   font-style: italic;
+}
+.outcomes {
+  background: var(--colour-grey-light);
+  padding: var(--space-lg);
 }
 </style>

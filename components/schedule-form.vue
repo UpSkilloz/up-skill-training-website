@@ -1,51 +1,90 @@
 <template>
   <div class="scheduleForm">
-    <form action="https://form.taxi/s/frqx3fm5" method="POST">
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Name</label>
-        <input
-          type="text"
-          name="Name"
-          id="exampleInputEmail1"
-          class="form-control"
-          aria-describedby="emailHelp"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input
+    <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+      <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
+        <b-form-input id="input-2" v-model="form.name" placeholder="Enter name" required></b-form-input>
+      </b-form-group>
+
+      <b-form-group
+        id="input-group-1"
+        label="Email address:"
+        label-for="input-1"
+        description="We'll never share your email with anyone else."
+      >
+        <b-form-input
+          id="input-1"
+          v-model="form.email"
           type="email"
-          name="Email"
-          id="exampleInputEmail1"
-          class="form-control"
-          aria-describedby="emailHelp"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label"
-          >How can we help?</label
-        >
-        <textarea
-          type="textarea"
-          name="Help"
-          rows="3"
-          id="exampleInputEmail1"
-          class="form-control"
-          aria-describedby="emailHelp"
-        />
-      </div>
-      <input
-        type="submit"
-        value="Send"
-        class="ctaButton-dark"
-        style="width: 100%"
-      />
-    </form>
+          placeholder="Enter email"
+          required
+        ></b-form-input>
+      </b-form-group>
+
+      <b-form-group
+        id="input-group-1"
+        label="Phone Number:"
+        label-for="input-1"
+        description="We'll never share your email with anyone else."
+      >
+        <b-form-input
+          id="input-1"
+          v-model="form.email"
+          type="email"
+          placeholder="Enter email"
+          required
+        ></b-form-input>
+      </b-form-group>
+
+      <b-form-group id="input-group-3" label="Food:" label-for="input-3">
+        <b-form-select id="input-3" v-model="form.food" :options="foods" required></b-form-select>
+      </b-form-group>
+
+      <b-button type="submit" variant="primary">Submit</b-button>
+      <b-button type="reset" variant="danger">Reset</b-button>
+    </b-form>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      form: {
+        email: '',
+        name: '',
+        food: null,
+        checked: [],
+      },
+      foods: [
+        { text: 'Select One', value: null },
+        'Carrots',
+        'Beans',
+        'Tomatoes',
+        'Corn',
+      ],
+      show: true,
+    }
+  },
+  methods: {
+    onSubmit(event) {
+      event.preventDefault()
+      alert(JSON.stringify(this.form))
+    },
+    onReset(event) {
+      event.preventDefault()
+      // Reset our form values
+      this.form.email = ''
+      this.form.name = ''
+      this.form.food = null
+      this.form.checked = []
+      // Trick to reset/clear native browser form validation state
+      this.show = false
+      this.$nextTick(() => {
+        this.show = true
+      })
+    },
+  },
+}
 </script>
 
 <style scoped>
@@ -55,23 +94,5 @@ export default {}
   height: 100%;
   background: var(--colour-grey-light);
   padding: var(--space-md);
-}
-#ft-form input,
-#ft-form select,
-#ft-form textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.5em;
-  margin: 0;
-  padding: var(--space-sm) var(--space-md);
-  color: inherit;
-  width: 100%;
-  min-width: 300px;
-  border: none;
-  border-radius: var(--space-sm);
-}
-#ft-form input[type='submit'] {
-  background: var(--colour-primary);
-  color: var(--colour-light);
 }
 </style>

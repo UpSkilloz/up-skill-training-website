@@ -10,7 +10,7 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-item href="/">Home</b-nav-item>
           <b-nav-item href="/courses">Courses</b-nav-item>
-          <b-nav-item href="/howitworks">Our Approach</b-nav-item>
+          <b-nav-item href="/our-approach">Our Approach</b-nav-item>
           <b-nav-item href="/trainers">Trainers</b-nav-item>
           <b-nav-item href="/about-us">About Us</b-nav-item>
           <b-nav-item href="/contact">Contact</b-nav-item>

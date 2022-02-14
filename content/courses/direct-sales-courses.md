@@ -1,8 +1,8 @@
 ---
 id: 4
-title: Professional Sales Skills
+title: Direct Sales Courses
 snippet: Unlock the potential of your people
-image: agile-selling.webp
+image: direct.svg
 description: Our Professional Sales Skills course is ideal for anyone currently in a sales role or those wanting to start a career in sales and would like to start with a solid foundation. Individuals working in corporate sales, retail sales, direct sales, business to business sales or business to customer sales would benefit greatly from this course.
 overview: Like all our courses, the Professional Sales Skills course can be customised to suit specific business requirements, however there are some vital sales basics that are covered in most of our courses. Sales essentials such as lead generation methods, appointment setting skills, presentation techniques, questioning skills, effective closing skills and the importance of after sales service are all covered to an advanced level. Participants will graduate feeling  inspired with a new level of confidence enabling them to become more effective and efficient sales people.
 attendees:

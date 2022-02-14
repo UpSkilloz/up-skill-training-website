@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div>
     <div class="contactHero">
       <div class="row">
         <div class="col-6">
@@ -15,20 +15,18 @@
     </div>
     <div class="container">
       <div class="row contact-wrapper">
-        <div class="col-sm-12 col-md-6 order-2 order-md-1">
+        <div class="col-sm-12 col-md-6">
           <div class="contactSummary">
             <h4>Contact Us</h4>
-            <div class="tel mb-3">1300 144 838</div>
-            <div class="address mb-3">
-              5 Everage Street
-              <br />Moonee Ponds VIC 3039
-            </div>
+            <p>
+              something catchy here to get the user to contact up skill now,
+              rather than looking elsewhere and shopping around...
+            </p>
+            <p>Contact details will be here.. telephone, address email etc..</p>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 order-1 order-md-2">
-          <div class="contactForm">
-            <contact-form />
-          </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="contactForm">Contact Form will go here</div>
         </div>
       </div>
     </div>
@@ -36,19 +34,13 @@
 </template>
 
 <script>
-import contactForm from '~/components/contact-form.vue'
 export default {
-  components: { contactForm },
   layout: 'page-layout',
 }
 </script>
 
 <style scoped>
 /* Styles */
-.page {
-  width: 100%;
-  overflow-x: hidden;
-}
 .contactHero {
   width: 100%;
   height: 40vh;
@@ -83,17 +75,5 @@ export default {
 }
 .contact-wrapper {
   margin-top: -70px;
-}
-.tel {
-  font-size: 1.2em;
-  font-weight: 900;
-  color: var(--colour-primary);
-  padding: var(--space-md);
-  border-bottom: 3px solid var(--colour-secondary);
-}
-.address {
-  font-size: 1.2em;
-  padding: var(--space-md);
-  border-bottom: 3px solid var(--colour-secondary);
 }
 </style>

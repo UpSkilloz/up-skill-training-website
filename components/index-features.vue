@@ -11,7 +11,7 @@
           {{ feature.title }}
         </div>
       </div>-->
-      <h2>Why Up Skill?</h2>
+      <h2>Committed to Excellence</h2>
       <b-row>
         <b-col sm="12" md="6" lg="4" class="d-flex">
           <div class="featureItem align-self-stretch">

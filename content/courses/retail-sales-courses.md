@@ -1,8 +1,8 @@
 ---
 id: 1
-title: Telephone Sales Courses
+title: Retail Sales Courses
 snippet: Our retail sale training course are custom designed after a detailed training needs analysis is completed.
-image: phone.svg
+image: retail.svg
 description: Our retail sale training course are custom designed after a detailed training needs analysis is completed. 
 overview: This course can be delivered over 1 – 3 days in person or virtually. The course deep dives into the phycology of how to effectively engage with customers using effective listening and questioning techniques to gain trust and uncover their real needs and desires making closing the sale a natural progression of the conversation. 
 receive:
