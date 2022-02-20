@@ -8,21 +8,21 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="/"><div class="pl-4">Home</div></b-nav-item>
+          <b-nav-item href="/"><div class="menuPadding">Home</div></b-nav-item>
           <b-nav-item href="/courses"
-            ><div class="pl-4">Courses</div></b-nav-item
+            ><div class="menuPadding">Courses</div></b-nav-item
           >
           <b-nav-item href="/our-approach"
-            ><div class="pl-4">Our Approach</div></b-nav-item
+            ><div class="menuPadding">Our Approach</div></b-nav-item
           >
           <b-nav-item href="/trainers"
-            ><div class="pl-4">Trainers</div></b-nav-item
+            ><div class="menuPadding">Trainers</div></b-nav-item
           >
           <b-nav-item href="/about-us"
-            ><div class="pl-4">About Us</div></b-nav-item
+            ><div class="menuPadding">About Us</div></b-nav-item
           >
           <b-nav-item href="/contact"
-            ><div class="pl-4">Contact</div></b-nav-item
+            ><div class="menuPadding">Contact</div></b-nav-item
           >
         </b-navbar-nav>
       </b-collapse>
@@ -62,5 +62,13 @@ export default {}
 .navbar-dark .navbar-toggler:hover {
   color: var(--colour-secondary);
   border-color: var(--colour-secondary);
+}
+.menuPadding {
+  padding: 0;
+}
+@media screen and (max-width: 900px) {
+  .menuPadding {
+    padding: 0 0 0 16px;
+  }
 }
 </style>

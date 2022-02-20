@@ -63,27 +63,7 @@
     </div>
     <footer-section />
     <back-to-top />
-    <b-form
-      inline
-      class="justify-content-center"
-      ref="form"
-      @submit.prevent="submit"
-    >
-      <b-form-group
-        invalid-feedback="Email is required"
-        label="Email"
-        label-sr-only
-        label-for="input-email"
-      >
-        <b-input
-          :state="validateState($v.email)"
-          v-model="$v.email.$model"
-          id="input-email"
-          placeholder="Your email"
-        ></b-input>
-        <b-button type="submit" variant="primary">Request Invite</b-button>
-      </b-form-group>
-    </b-form>
+
     <script
       type="text/javascript"
       src="https://apiv2.popupsmart.com/api/Bundle/380321"
