@@ -2,43 +2,50 @@
   {
     "name": "about-us",
     "path": "/about-us",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
     "chunkName": "pages/about-us",
-    "_name": "_5c47bdca"
+    "_name": "_347d7ed0"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\contact.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_4109eee4"
+    "_name": "_cfe44b54"
   },
   {
     "name": "courses",
     "path": "/courses",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\courses.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\courses.vue",
     "chunkName": "pages/courses",
-    "_name": "_3ab2627c"
+    "_name": "_dc936424"
+  },
+  {
+    "name": "our-approach",
+    "path": "/our-approach",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\our-approach.vue",
+    "chunkName": "pages/our-approach",
+    "_name": "_344ce643"
   },
   {
     "name": "trainers",
     "path": "/trainers",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\trainers.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\trainers.vue",
     "chunkName": "pages/trainers",
-    "_name": "_0b802b4a"
+    "_name": "_d60ca3d0"
   },
   {
     "name": "course-slug",
     "path": "/course/:slug?",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
     "chunkName": "pages/course/_slug",
-    "_name": "_51d84dd3"
+    "_name": "_01865bc5"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\Nuxt\\\\Nick Nedelkovski\\\\up-skill-training-website\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_a58734d4"
+    "_name": "_36c88588"
   }
 ]

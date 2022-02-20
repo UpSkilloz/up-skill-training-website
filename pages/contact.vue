@@ -26,7 +26,9 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-6">
-          <div class="contactForm">Contact Form will go here</div>
+          <div class="contactForm">
+            <contact-form />
+          </div>
         </div>
       </div>
     </div>
@@ -34,7 +36,9 @@
 </template>
 
 <script>
+import contactForm from '~/components/contact-form.vue'
 export default {
+  components: { contactForm },
   layout: 'page-layout',
 }
 </script>

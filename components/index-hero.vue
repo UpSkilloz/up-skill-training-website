@@ -1,14 +1,22 @@
 <template>
   <div class="hero">
     <navbar-schedule />
-    <div class="viewpoint d-flex flex-column justify-content-around align-items-center">
+    <div
+      class="viewpoint d-flex flex-column justify-content-around align-items-center"
+    >
       <img src="@/static/images/logo_icon_light.svg" alt class="heroIcon" />
-      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">UpSkill Training</h1>
+      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">
+        UpSkill Training
+      </h1>
       <h3
         style="text-align: center; max-width: 50%"
         class="animate__animated animate__fadeIn animate__delay-1s"
-      >“Delivering high performance sales training”</h3>
-      <div class="ctaButton animate__animated animate__tada animate__delay-2s">View our Courses</div>
+      >
+        “Delivering high performance sales training”
+      </h3>
+      <div class="ctaButton animate__animated animate__tada animate__delay-2s">
+        View our Courses
+      </div>
     </div>
   </div>
 </template>
@@ -24,7 +32,7 @@ export default {
 /* Styles */
 .hero {
   width: 100%;
-  height: 60vh;
+  height: 100%;
   background: url('@/static/images/hero.webp') center center no-repeat;
   background-size: cover;
   color: var(--colour-light);
@@ -45,8 +53,8 @@ export default {
 }
 .viewpoint {
   width: 100%;
-  height: 50vh;
-  padding: var(--space-xlg) 0;
+  height: auto;
+  padding: var(--space-xlg);
   background: rgba(var(--colour-primary-rgb), var(--alpha-70));
   color: white;
 }

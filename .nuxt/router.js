@@ -4,12 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _5c47bdca = () => interopDefault(import('..\\pages\\about-us.vue' /* webpackChunkName: "pages/about-us" */))
-const _4109eee4 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
-const _3ab2627c = () => interopDefault(import('..\\pages\\courses.vue' /* webpackChunkName: "pages/courses" */))
-const _0b802b4a = () => interopDefault(import('..\\pages\\trainers.vue' /* webpackChunkName: "pages/trainers" */))
-const _51d84dd3 = () => interopDefault(import('..\\pages\\course\\_slug.vue' /* webpackChunkName: "pages/course/_slug" */))
-const _a58734d4 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _347d7ed0 = () => interopDefault(import('..\\pages\\about-us.vue' /* webpackChunkName: "pages/about-us" */))
+const _cfe44b54 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
+const _dc936424 = () => interopDefault(import('..\\pages\\courses.vue' /* webpackChunkName: "pages/courses" */))
+const _344ce643 = () => interopDefault(import('..\\pages\\our-approach.vue' /* webpackChunkName: "pages/our-approach" */))
+const _d60ca3d0 = () => interopDefault(import('..\\pages\\trainers.vue' /* webpackChunkName: "pages/trainers" */))
+const _01865bc5 = () => interopDefault(import('..\\pages\\course\\_slug.vue' /* webpackChunkName: "pages/course/_slug" */))
+const _36c88588 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -24,27 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/about-us",
-    component: _5c47bdca,
+    component: _347d7ed0,
     name: "about-us"
   }, {
     path: "/contact",
-    component: _4109eee4,
+    component: _cfe44b54,
     name: "contact"
   }, {
     path: "/courses",
-    component: _3ab2627c,
+    component: _dc936424,
     name: "courses"
   }, {
+    path: "/our-approach",
+    component: _344ce643,
+    name: "our-approach"
+  }, {
     path: "/trainers",
-    component: _0b802b4a,
+    component: _d60ca3d0,
     name: "trainers"
   }, {
     path: "/course/:slug?",
-    component: _51d84dd3,
+    component: _01865bc5,
     name: "course-slug"
   }, {
     path: "/",
-    component: _a58734d4,
+    component: _36c88588,
     name: "index"
   }],
 

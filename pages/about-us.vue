@@ -1,14 +1,12 @@
 <template>
-  <div>
-    <div class="container">
-      <b-row class="mt-5">
-        <b-col-12 class="mb-5">
-          <p>
-            <nuxt-content :document="about[0]" />
-          </p>
-        </b-col-12>
-      </b-row>
-    </div>
+  <div class="container px-4">
+    <b-row class="mt-5">
+      <b-col-12 class="mb-5">
+        <p>
+          <nuxt-content :document="about[0]" />
+        </p>
+      </b-col-12>
+    </b-row>
   </div>
 </template>
 

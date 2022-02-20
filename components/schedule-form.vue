@@ -1,8 +1,13 @@
 <template>
   <div class="scheduleForm">
-    <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+    <b-form v-if="show" @submit="onSubmit" @reset="onReset">
       <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
-        <b-form-input id="input-2" v-model="form.name" placeholder="Enter name" required></b-form-input>
+        <b-form-input
+          id="input-2"
+          v-model="form.name"
+          placeholder="Enter name"
+          required
+        ></b-form-input>
       </b-form-group>
 
       <b-form-group
@@ -36,11 +41,26 @@
       </b-form-group>
 
       <b-form-group id="input-group-3" label="Food:" label-for="input-3">
-        <b-form-select id="input-3" v-model="form.food" :options="foods" required></b-form-select>
+        <b-form-select
+          id="input-3"
+          v-model="form.food"
+          :options="foods"
+          required
+        ></b-form-select>
       </b-form-group>
 
-      <b-button type="submit" variant="primary">Submit</b-button>
-      <b-button type="reset" variant="danger">Reset</b-button>
+      <b-button
+        type="submit"
+        class="btn ctaButton-dark float-right m-2"
+        variant="primary"
+        >Submit</b-button
+      >
+      <b-button
+        class="btn ctaButton float-right m-2"
+        type="reset"
+        variant="danger"
+        >Reset</b-button
+      >
     </b-form>
   </div>
 </template>
@@ -93,6 +113,6 @@ export default {
   width: 100%;
   height: 100%;
   background: var(--colour-grey-light);
-  padding: var(--space-md);
+  padding: var(--space-xlg) var(--space-md);
 }
 </style>
