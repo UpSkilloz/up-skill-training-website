@@ -9,7 +9,7 @@
         UpSkill Training
       </h1>
       <h3
-        style="text-align: center; max-width: 50%"
+        style="text-align: center"
         class="animate__animated animate__fadeIn animate__delay-1s"
       >
         “Delivering high performance sales training”
@@ -57,5 +57,10 @@ export default {
   padding: var(--space-xlg);
   background: rgba(var(--colour-primary-rgb), var(--alpha-70));
   color: white;
+}
+@media screen and (max-width: 768px) {
+  .hero img {
+    width: 70%;
+  }
 }
 </style>

@@ -105,3 +105,15 @@ a:focus {
   background: var(--colour-secondary);
   border-radius: var(--space-sm);
 }
+
+@media screen and (max-width: 768px) {
+  .ctaButton,
+  .ctaButton-dark {
+    padding: var(--space-sm);
+  }
+  .hero img {
+    width: 70%;
+    max-height: 200px;
+    height: auto;
+  }
+}
