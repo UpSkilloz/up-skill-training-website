@@ -44,11 +44,15 @@
       </b-col>
       <b-col>
         <h3>Courses</h3>
-        <ul v-for="course in courses" :key="course.slug">
-          <li>{{ course.title }}</li>
-        </ul>
+        <div v-for="course in courses" :key="course.slug">
+          <ul style="background: yellow; height: 200px">
+            <li>{{ course.title }}</li>
+          </ul>
+        </div>
+        <pre>{{ course }}</pre>
       </b-col>
-      <b-col>
+      <b-col
+        >``
         <h3>Contact:</h3>
         <div class="footer-tel mb-3">1300 144 838</div>
         <div class="footer-address mb-3">
@@ -97,7 +101,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const courses = await $content('courses').sortBy('title', 'asc').fetch()
+    const courses = await $content('courses').fetch()
 
     return { courses }
   },
