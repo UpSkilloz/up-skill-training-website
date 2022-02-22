@@ -1,27 +1,37 @@
 ---
 id: 1
-title: Telephone Sales Courses
-snippet: Our retail sale training course are custom designed after a detailed training needs analysis is completed.
+title: Telephone Sales Training Course
+snippet: 
 image: phone.svg
-description: Our retail sale training course are custom designed after a detailed training needs analysis is completed. 
-overview: This course can be delivered over 1 – 3 days in person or virtually. The course deep dives into the phycology of how to effectively engage with customers using effective listening and questioning techniques to gain trust and uncover their real needs and desires making closing the sale a natural progression of the conversation. 
+description: The telephone remains one of the most effective and efficient business tools available to small and large businesses today. Developing an excellent telephone acumen can have a massive impact on sales revenues, customer satisfaction, important communications, and marketing. Investing in telephone skills training is one of the most cost-effective ways any size business can improve their businesses performance. 
+overview: Popular topics in our telephone sales course includes cold calling techniques for successful lead generation, advanced questioning techniques, listening skills, using emotional intelligence to close sales, and objection handling techniques. Participants will graduate form their course energised with the knowledge that they are well equipped to successfully increase their closing rates at the same time as increasing customer satisfaction. As with all our courses, we custom-designed each one for our clients. However, we have listed some common topics included in most courses below.
+overviewList:
+ - Courses can be run over a 1 – 3-day period depending on your requirements.
+ - Courses can be designed to accommodate new telephone operators, teaching the basics of sales.
+ - We can also design advanced-level courses for experienced telephone operators with advanced-level skills.
+ - Popular topics include.
+ - Attitude determines altitude.
+ - Conversation starters & the importance of voice inflection.
+ - Capturing the customer’s interest.
+ - Using questioning techniques to uncover a customer’s needs.
+ - How to overcome the most common objection.
+ - Closing and finalizing the sale.
+ - Going the extra mile.
 receive:
- - 1-to-3-day custom designed sale workshop that will unlock your team’s potential making selling a natural process.
+ - 1-to-3-day custom-designed sale workshop, making selling a natural process.
  - A complete set of student training workbooks.
- - Custom designed role play simulations specific to your business.
- - Group exercises designed to stimulate participation to help better retain newly learnt concepts.
- - Assessment tasks designed to assess retention of newly learnt concepts.
- - Follow up assessment 30 days after training course to ensure the desired outcomes have been achieved.
+ - Custom designed role-play simulations specific to your business.
+ - Group exercises designed to stimulate participants to help better retain newly learned concepts.
+ - Assessment tasks designed to assess retention of newly learned concepts.
+ - Follow-up assessment after training course to ensure the desired outcomes have been achieved.
 outcomes:
- - Understand the importance developing & maintain a positive mindset.
- - Learn new tools to reset their mindset easily.
- - How to fearless when closing the sale.
- - Learn to upsell and cross sell.
+ - Understand the importance of developing & maintaining a positive mindset.
+ - How to effectively start a conversation with customers.
+ - Questioning techniques that uncover customer needs.
+ - Learn to upsell and cross-sell.
  - Develop advanced telephone skills that increase confidence and sales.
- - Master the art of closing a sale.
- - Develop answers for overcoming the top 6 objections.
- - Understand how to use alternative closes to reframe the offer.
- - Learn how to use the different questioning modes to influence the conversation.
+ - How to effectively finalize the sale, leaving customers delighted.
  - Become proficient at exercising influence during the sales process.
- - And of course, sell more!
+ - And, of course, how to sell more!
+
 ---

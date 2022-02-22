@@ -1,7 +1,11 @@
 <template>
   <div class="container">
     <div class="row">
-      <div v-for="course in courses" :key="course.slug" class="col-12 col-sm-6 col-md-4 mb-4">
+      <div
+        v-for="course in courses"
+        :key="course.slug"
+        class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4"
+      >
         <nuxt-link :to="{ name: 'course-slug', params: { slug: course.slug } }">
           <div class="card mt-4 h-100 border-0">
             <img

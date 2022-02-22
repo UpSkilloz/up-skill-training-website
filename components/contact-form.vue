@@ -2,33 +2,27 @@
   <div>
     <form action="https://form.taxi/s/tli2b882" method="POST">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <label for="exampleInputEmail1" class="form-label">Name *</label>
         <input
           type="text"
           name="Name"
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
+          required
         />
       </div>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Company</label>
-        <input
-          type="text"
-          name="Company"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <label for="exampleInputEmail1" class="form-label"
+          >Email address *</label
+        >
         <input
           type="email"
           name="Email"
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
+          required
         />
       </div>
       <div class="mb-3">
@@ -38,18 +32,6 @@
         <input
           type="text"
           name="ContactPhone"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label"
-          >How many people do you have to be trained?</label
-        >
-        <input
-          type="number"
-          name="Pax"
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"

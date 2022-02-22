@@ -44,12 +44,20 @@
       </b-col>
       <b-col>
         <h3>Courses</h3>
-        <div v-for="course in courses" :key="course.slug">
-          <ul style="background: yellow; height: 200px">
-            <li>{{ course.title }}</li>
-          </ul>
-        </div>
-        <pre>{{ course }}</pre>
+        <ul>
+          <a href="/course/direct-sales-training-course">
+            <li>Direct Sales Training Course</li>
+          </a>
+          <a href="/course/retail-sales-courses">
+            <li>Retail Sales Course</li>
+          </a>
+          <a href="/course/small-business-sales-course">
+            <li>Small Business Sales Course</li>
+          </a>
+          <a href="/course/tele-sales-power">
+            <li>Telephone Sales Training Course</li>
+          </a>
+        </ul>
       </b-col>
       <b-col
         >``
@@ -99,13 +107,7 @@
 </template>
 
 <script>
-export default {
-  async asyncData({ $content }) {
-    const courses = await $content('courses').fetch()
-
-    return { courses }
-  },
-}
+export default {}
 </script>
 
 <style scoped>

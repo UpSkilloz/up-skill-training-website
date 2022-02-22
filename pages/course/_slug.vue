@@ -14,10 +14,22 @@
         alt="..."
       />
     </div>
-    <p class="intro mt-3">{{ course.description }}</p>
+    <p v-if="course.description" class="intro mt-3">{{ course.description }}</p>
     <div v-if="course.overview">
       <h4 class="profile-title">Course Overview</h4>
       <p>{{ course.overview }}</p>
+    </div>
+
+    <div class="col-sm-12 col-lg-6">
+      <div v-if="course.overviewList" class="mb-4">
+        <ul
+          v-for="course in course.overviewList"
+          :key="course.title"
+          class="m-0"
+        >
+          <li class="mt-2">{{ course }}</li>
+        </ul>
+      </div>
     </div>
 
     <div class="row">

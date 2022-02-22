@@ -6,8 +6,8 @@
           <div
             class="contactQuote d-flex flex-column justify-content-center align-items-center"
           >
-            <h5>My optimism wears heavy boots and is loud.</h5>
-            <div class="quoteAuthor">Henry Rollins</div>
+            <h5>Growth and comfort do not coexist.</h5>
+            <div class="quoteAuthor">Ginni Rometty</div>
           </div>
         </div>
         <div class="col-6"></div>
@@ -19,10 +19,14 @@
           <div class="contactSummary">
             <h4>Contact Us</h4>
             <p>
-              something catchy here to get the user to contact up skill now,
-              rather than looking elsewhere and shopping around...
+              Let us know your requirements and we will get back to you as soon
+              as possible.
             </p>
-            <p>Contact details will be here.. telephone, address email etc..</p>
+            <p class="text-bold">1300 144 838</p>
+            <p>
+              5 Everage Street<br />
+              Mooney Ponds VIC 3039
+            </p>
           </div>
         </div>
         <div class="col-sm-12 col-md-6">
