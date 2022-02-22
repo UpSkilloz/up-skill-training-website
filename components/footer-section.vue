@@ -59,8 +59,7 @@
           </a>
         </ul>
       </b-col>
-      <b-col
-        >``
+      <b-col>
         <h3>Contact:</h3>
         <div class="footer-tel mb-3">1300 144 838</div>
         <div class="footer-address mb-3">
