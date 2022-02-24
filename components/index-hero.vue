@@ -14,9 +14,13 @@
       >
         “Delivering high performance sales training”
       </h3>
-      <div class="ctaButton animate__animated animate__tada animate__delay-2s">
-        View our Courses
-      </div>
+      <a href="/courses">
+        <div
+          class="ctaButton animate__animated animate__tada animate__delay-2s"
+        >
+          View our Courses
+        </div>
+      </a>
     </div>
   </div>
 </template>
