@@ -59,7 +59,7 @@
 
             <p>
               For more information on transforming your sales team and results,
-              call 1300 555 555 or complete the inquiry form.
+              call 1300 144 838 or complete the inquiry form.
             </p>
           </div>
           <div class="col-md-12 col-lg-6 p-4">
@@ -70,12 +70,6 @@
     </div>
     <footer-section />
     <back-to-top />
-
-    <script
-      type="text/javascript"
-      src="https://apiv2.popupsmart.com/api/Bundle/380321"
-      async
-    ></script>
   </div>
 </template>
 

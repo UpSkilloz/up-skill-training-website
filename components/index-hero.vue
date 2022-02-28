@@ -51,7 +51,6 @@ export default {
   filter: drop-shadow(0 0 12px rgba(var(--colour-dark-rgb), var(--alpha-30)));
 }
 .hero h1 {
-  text-transform: uppercase;
   font-weight: 900;
   text-align: center;
 }

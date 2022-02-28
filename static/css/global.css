@@ -118,6 +118,21 @@ a:focus {
   background: var(--colour-secondary);
   border-radius: var(--space-sm);
 }
+.ctaButtonInverse {
+  padding: var(--space-md);
+  background: var(--colour-secondary);
+  border: 2px solid var(--colour-light);
+  color: var(--colour-light);
+  border-radius: var(--space-sm);
+  font-weight: 900;
+  box-shadow: none;
+  margin: auto;
+}
+.ctaButtonInverse:hover {
+  background: var(--colour-secondary);
+  border: 2px solid var(--colour-light);
+  color: var(--colour-light);
+}
 
 @media screen and (max-width: 768px) {
   .ctaButton,

@@ -71,7 +71,7 @@
               >
                 <p>
                   Our trainers are all successful sales professionals & experts
-                  in all topics of sales.
+                  in all areas of sales.
                 </p>
               </b-col>
             </b-row>

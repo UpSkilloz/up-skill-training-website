@@ -1,57 +1,63 @@
 <template>
   <div class="scheduleForm">
-    <b-form v-if="show" @submit="onSubmit" @reset="onReset">
-      <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
-        <b-form-input
-          id="input-2"
-          v-model="form.name"
-          placeholder="Enter name"
+    <form action="https://form.taxi/s/tli2b882" method="POST">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name *</label>
+        <input
+          type="text"
+          name="Name"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
           required
-        ></b-form-input>
-      </b-form-group>
-
-      <b-form-group
-        id="input-group-1"
-        label="Email address:"
-        label-for="input-1"
-      >
-        <b-form-input
-          id="input-1"
-          v-model="form.email"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"
+          >Email address *</label
+        >
+        <input
           type="email"
-          placeholder="Enter Email Address"
+          name="Email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
           required
-        ></b-form-input>
-      </b-form-group>
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"
+          >Contact Phone:</label
+        >
+        <input
+          type="text"
+          name="ContactPhone"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"
+          >How can we help?</label
+        >
+        <textarea
+          type="textarea"
+          name="Help"
+          rows="3"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+      </div>
 
-      <b-form-group
-        id="input-group-1"
-        label="Phone Number:"
-        label-for="input-1"
-        description="We'll never share your details with anyone else."
-      >
-        <b-form-input
-          id="input-1"
-          v-model="form.email"
-          type="email"
-          placeholder="Enter Contact Number"
-          required
-        ></b-form-input>
-      </b-form-group>
-
-      <b-button
+      <input
         type="submit"
-        class="btn ctaButton-dark float-right m-2"
-        variant="primary"
-        >Submit</b-button
-      >
-      <b-button
-        class="btn ctaButton float-right m-2"
-        type="reset"
-        variant="danger"
-        >Reset</b-button
-      >
-    </b-form>
+        value="Send"
+        class="ctaButton-dark"
+        style="width: 100%"
+      />
+    </form>
   </div>
 </template>
 

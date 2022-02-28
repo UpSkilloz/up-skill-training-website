@@ -5,7 +5,7 @@
     >
       <h2>Australia's Premier Sales Training Organisation</h2>
       <p>
-        We have over 25 years of experience designing and delivering sales
+        We have over 27 years of experience designing and delivering sales
         training programs in multiple industries and have produced amazing
         results. We have helped sales teams achieve, increased sales revenues,
         increased team moral, happier customers, higher close rates and created

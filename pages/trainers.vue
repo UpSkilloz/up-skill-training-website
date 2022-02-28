@@ -15,7 +15,7 @@
           <nuxt-content :document="reps" />
 
           <b-row class="profile-contact">
-            <b-col>
+            <b-col sm="12" class="mb-4">
               <a v-if="reps.phone" :href="`tel:${reps.phone}`" class="callBtn">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -31,6 +31,8 @@
                 </svg>
                 Call Now
               </a>
+            </b-col>
+            <b-col sm="12">
               <a v-if="reps.facebook" :href="`${reps.facebook}`">
                 <svg
                   role="img"
@@ -97,8 +99,8 @@ export default {
 }
 .profile-contact svg {
   fill: var(--colour-primary);
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin: 0 var(--space-sm);
 }
 .callBtn {

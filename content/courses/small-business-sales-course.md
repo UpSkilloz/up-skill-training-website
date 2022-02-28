@@ -1,7 +1,7 @@
 ---
 id: 0
 title: Small business Sales Course
-snippet: 
+snippet: Small business owners are some of the hardest-working individuals in our community. 
 image: home.svg
 description: Small business owners are some of the hardest-working individuals in our community. Running a small business involves everything! Product design, research, web design, stock control, becoming a marketing guru, sales, customer service, returns, customer complaints the list goes on. In our experience, most small business owners have never learned the basics of effective selling. As a result, many lose thousands of dollars in sales revenue every month. 
 overview: Our small business sales course is designed to teach anyone in small business the fundamentals of effective selling. Basics, such as building trust with customers, effective questioning techniques to establish a customer’s needs, how to present products or services effectively, and how to finalize (close the sale) while delighting the customer with fantastic service. As with all our courses, we custom-designed each one for our clients. However, we have listed some common topics included in most courses below.

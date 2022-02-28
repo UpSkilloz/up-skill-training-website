@@ -1,6 +1,6 @@
 ---
 id: 1
-title: Retail Sales Training Course
+title: Retail Sales Course
 snippet: Retail is one of the most competitive platforms for salespeople.
 image: retail.svg
 description: ~

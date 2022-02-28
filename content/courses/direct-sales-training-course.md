@@ -1,12 +1,12 @@
 ---
 id: 1
-title: Direct Sales Training Course
+title: Direct Sales Course
 snippet: We have a 27-year history in building and running successful direct sales businesses.
 image: handshake.svg
 description: ~
 overview: We have a 27-year history in building and running successful direct sales businesses. During this time, we have developed sales strategies designed sales tools such as sales scripts and sales aids for outside and telephone-based sales teams. Specifically, we have recruited, trained, motivated, and developed thousands of salespeople over the years and have an intimate understanding of the process for taking someone brand new to direct sales and getting them to perform like a superstar in a maximum of two weeks. As with all our courses, we custom-designed each one for our clients. However, we have listed some common topics included in most courses below.
 overviewList:
- - Courses can be run over a 1 – 5-day period depending on your requirements.
+ - Courses can be run over a 1–5 day period depending on your requirements.
  - Courses can be designed to accommodate new salespeople, teaching the fundamentals of direct sales.
  - We can also design advanced-level courses for experienced salespeople with advanced-level skills.
  - Popular topics include. 
@@ -15,7 +15,7 @@ overviewList:
  - Presentation skills for closing on the first call.
  - Alternative closing techniques.
  - How to consolidate the sale (reduce cancellation rate).
- - Referral procurement. dkjd
+ - Referral procurement.
 receive:
  - 1-to-5-day custom-designed direct sales workshop guaranteed to see a  massive increase in closed sales. (On the first call).
  - A complete set of student training workbooks.

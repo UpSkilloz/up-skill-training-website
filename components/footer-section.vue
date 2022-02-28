@@ -39,14 +39,14 @@
 	17.2,40 23.2,34 "
             />
           </svg>
-          <div class="footer-brand">Up Skill</div>
+          <div class="footer-brand">UpSkill</div>
         </div>
       </b-col>
       <b-col>
         <h3>Courses</h3>
         <ul>
           <a href="/course/direct-sales-training-course">
-            <li>Direct Sales Training Course</li>
+            <li>Direct Sales Course</li>
           </a>
           <a href="/course/retail-sales-courses">
             <li>Retail Sales Course</li>
@@ -55,7 +55,7 @@
             <li>Small Business Sales Course</li>
           </a>
           <a href="/course/tele-sales-power">
-            <li>Telephone Sales Training Course</li>
+            <li>Telephone Sales Course</li>
           </a>
         </ul>
       </b-col>
@@ -126,7 +126,6 @@ export default {}
   width: 100%;
   font-size: 2em;
   text-align: center;
-  text-transform: uppercase;
 }
 ul li {
   list-style: url('@/static/images/gold_diamond.svg');

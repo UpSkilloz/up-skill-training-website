@@ -31,7 +31,11 @@
         </ul>
       </div>
     </div>
-
+    <div class="onlineEnquiry d-flex justify-content-center align-items-center">
+      <a href="/contact">
+        <div class="btn ctaButtonInverse">Online Enquiry</div>
+      </a>
+    </div>
     <div class="row">
       <div class="col-sm-12 col-lg-6 min">
         <div v-if="course.receive" class="attendees mb-4">
@@ -54,6 +58,11 @@
     </div>
 
     <nuxt-content :document="course" />
+    <div class="onlineEnquiry d-flex justify-content-center align-items-center">
+      <a href="/contact">
+        <div class="btn ctaButtonInverse">Online Enquiry</div>
+      </a>
+    </div>
   </div>
 </template>
 
@@ -97,5 +106,9 @@ export default {
 .outcomes {
   background: var(--colour-grey-light);
   padding: var(--space-lg);
+}
+.onlineEnquiry {
+  width: 100%;
+  height: 100px;
 }
 </style>
