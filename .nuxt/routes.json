@@ -3,49 +3,42 @@
     "name": "about-us",
     "path": "/about-us",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
-    "chunkName": "pages/about-us",
-    "_name": "_347d7ed0"
+    "chunkName": "pages/about-us"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_cfe44b54"
+    "chunkName": "pages/contact"
   },
   {
     "name": "courses",
     "path": "/courses",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\courses.vue",
-    "chunkName": "pages/courses",
-    "_name": "_dc936424"
+    "chunkName": "pages/courses"
   },
   {
     "name": "our-approach",
     "path": "/our-approach",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\our-approach.vue",
-    "chunkName": "pages/our-approach",
-    "_name": "_344ce643"
+    "chunkName": "pages/our-approach"
   },
   {
     "name": "trainers",
     "path": "/trainers",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\trainers.vue",
-    "chunkName": "pages/trainers",
-    "_name": "_d60ca3d0"
+    "chunkName": "pages/trainers"
   },
   {
     "name": "course-slug",
     "path": "/course/:slug?",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
-    "chunkName": "pages/course/_slug",
-    "_name": "_01865bc5"
+    "chunkName": "pages/course/_slug"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\UpSkill Training\\\\GitHub\\\\up-skill-training-website\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_36c88588"
+    "chunkName": "pages/index"
   }
 ]

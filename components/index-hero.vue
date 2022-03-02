@@ -1,6 +1,5 @@
 <template>
   <div class="hero">
-    <navbar-schedule />
     <div
       class="viewpoint d-flex flex-column justify-content-around align-items-center"
     >
@@ -26,10 +25,7 @@
 </template>
 
 <script>
-import navbarSchedule from './navbar-schedule.vue'
-export default {
-  components: { navbarSchedule },
-}
+export default {}
 </script>
 
 <style scoped>

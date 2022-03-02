@@ -27,6 +27,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
+    <navbar-schedule />
   </div>
 </template>
 <script>

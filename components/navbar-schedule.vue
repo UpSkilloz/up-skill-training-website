@@ -1,7 +1,9 @@
 <template>
   <div class="schedule-bar">
     <div class="container">
-      <div class="scheduleWrapper d-flex justify-content-end align-items-center">
+      <div
+        class="scheduleWrapper d-flex justify-content-end align-items-center"
+      >
         <div class="btn ctaButton-dark mr-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +33,7 @@ export default {}
 
 <style scoped>
 .schedule-bar {
-  height: 10vh;
+  height: auto;
   width: 100%;
   background: var(--colour-light);
   border-top: 2px solid var(--colour-secondary);
