@@ -1,7 +1,7 @@
 ---
 id: 1
-title: Retail Sales Course
-snippet: Retail is one of the most competitive platforms for salespeople.
+title: Catapult your retail sales business and leave your competition in the dust.
+snippet: Learn the 5 secrets of getting more people to say “YES” and catapult your sales revenue.
 image: retail.svg
 description: ~
 overview: Retail is one of the most competitive platforms for salespeople. Competition is fierce, and customers often only need to walk across the road to find a similar product at a comparable price.  Our training courses are designed to give retail salespeople the skills to build trust, recognize customers’ desires using various questioning techniques, and effectively close the sales while delighting the customer with outstanding service. As with all our courses, we custom-designed each one for our clients. However, we have listed some common topics included in most courses below.

@@ -17,7 +17,14 @@
           </g>
         </svg>
       </div>
-      <div class="course-title">{{ $nuxt.$route.path.replace(/-/g, ' ').replace(/\//g, ' - ') }}</div>
+      <div class="course-title">
+        {{
+          $nuxt.$route.path
+            .replace(/-/g, ' ')
+            .replace(/\//g, ' ')
+            .replace(/course/g, ' ')
+        }}
+      </div>
     </page-hero>
     <nuxt />
     <footer-section />

@@ -1,7 +1,7 @@
 ---
 id: 1
-title: Telephone Sales Course
-snippet: The telephone remains one of the most effective and efficient business tools available to small and large businesses today.
+title: Master Tele-Sales and double your closing rate.
+snippet: Learn the simple yet failproof skills required to turn your telephone conversations into profits.
 image: phone.svg
 description: The telephone remains one of the most effective and efficient business tools available to small and large businesses today. Developing an excellent telephone acumen can have a massive impact on sales revenues, customer satisfaction, important communications, and marketing. Investing in telephone skills training is one of the most cost-effective ways any size business can improve their businesses performance. 
 overview: Popular topics in our telephone sales course includes cold calling techniques for successful lead generation, advanced questioning techniques, listening skills, using emotional intelligence to close sales, and objection handling techniques. Participants will graduate form their course energised with the knowledge that they are well equipped to successfully increase their closing rates at the same time as increasing customer satisfaction. As with all our courses, we custom-designed each one for our clients. However, we have listed some common topics included in most courses below.

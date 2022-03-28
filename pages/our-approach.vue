@@ -1,12 +1,26 @@
 <template>
-  <div class="container px-4">
-    <b-row class="mt-2">
-      <b-col-12 class="mb-5">
+  <div>
+    <div v-for="approach of approach" :key="approach.id" class="row bennyboy">
+      <div class="col-sm-12 col-md-4">
+        <div
+          v-if="approach.image"
+          class="circleImage d-flex justify-content-center align-items-center"
+        >
+          <img
+            :src="require(`~/static/images/icons/` + `${approach.image}`)"
+            alt="approach"
+            width="90%"
+            class="iconImage"
+          />
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-8">
+        <h2>{{ approach.title }}</h2>
         <p>
-          <nuxt-content :document="approach[0]" />
+          <nuxt-content :document="approach" />
         </p>
-      </b-col-12>
-    </b-row>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -40,5 +54,39 @@ export default {
 }
 .highlighted {
   background: yellow;
+}
+.circleImage {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconImage {
+  background: var(--colour-secondary);
+  border-radius: 50%;
+  padding: 20px;
+}
+.bennyboy {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bennyboy:nth-child(even) {
+  background: var(--colour-grey-light);
+  box-shadow: 0 0 10px var(--colour-grey);
+  margin: 20px 0;
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 768px) {
+  .bennyboy {
+    padding: 40px;
+    text-align: center;
+  }
 }
 </style>
