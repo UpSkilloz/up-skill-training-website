@@ -1,0 +1,9 @@
+{
+  "name": "up-skill-training",
+  "short_name": "up-skill-training",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "en"
+}

@@ -39,7 +39,7 @@ export default {}
 }
 .hero img {
   width: 20%;
-  max-height: 200px;
+  max-height: 100px;
   height: auto;
 }
 

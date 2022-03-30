@@ -18,7 +18,6 @@ import nuxt_plugin_pluginclient_285b9609 from 'nuxt_plugin_pluginclient_285b9609
 import nuxt_plugin_pluginserver_e3d5f0de from 'nuxt_plugin_pluginserver_e3d5f0de' // Source: .\\content\\plugin.server.js (mode: 'server')
 import nuxt_plugin_workbox_51571f12 from 'nuxt_plugin_workbox_51571f12' // Source: .\\workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_4d82e192 from 'nuxt_plugin_metaplugin_4d82e192' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_522a8706 from 'nuxt_plugin_iconplugin_522a8706' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
 import nuxt_plugin_axios_79f4af76 from 'nuxt_plugin_axios_79f4af76' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_vueawesomeSwiper_36cb9b39 from 'nuxt_plugin_vueawesomeSwiper_36cb9b39' // Source: ..\\plugins\\vue-awesomeSwiper.js (mode: 'client')
 
@@ -70,7 +69,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"UpSkill Training","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"UpSkill Training","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"up-skill-training"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"up-skill-training"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"up-skill-training"}],"link":[{"rel":"icon","type":"image\u002Fpng","href":"\u002Ffavicon.png"},{"hid":"shortcut-icon","rel":"shortcut icon","href":"\u002Ffavicon.ico"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.f21e3271.json","hid":"manifest"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
 
     router,
     nuxt: {
@@ -206,10 +205,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_metaplugin_4d82e192 === 'function') {
     await nuxt_plugin_metaplugin_4d82e192(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_iconplugin_522a8706 === 'function') {
-    await nuxt_plugin_iconplugin_522a8706(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_79f4af76 === 'function') {

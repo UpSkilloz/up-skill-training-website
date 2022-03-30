@@ -2,6 +2,12 @@
   "BackToTop": {
     "description": "Auto imported from components/back-to-top.vue"
   },
+  "Carousel": {
+    "description": "Auto imported from components/carousel.vue"
+  },
+  "Companies": {
+    "description": "Auto imported from components/companies.vue"
+  },
   "ContactForm": {
     "description": "Auto imported from components/contact-form.vue"
   },
