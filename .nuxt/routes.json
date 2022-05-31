@@ -3,49 +3,42 @@
     "name": "about-us",
     "path": "/about-us",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
-    "chunkName": "pages/about-us",
-    "_name": "_06685528"
+    "chunkName": "pages/about-us"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_35b35b02"
+    "chunkName": "pages/contact"
   },
   {
     "name": "courses",
     "path": "/courses",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\courses.vue",
-    "chunkName": "pages/courses",
-    "_name": "_2f5bce9a"
+    "chunkName": "pages/courses"
   },
   {
     "name": "our-approach",
     "path": "/our-approach",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\our-approach.vue",
-    "chunkName": "pages/our-approach",
-    "_name": "_30ce1dd2"
+    "chunkName": "pages/our-approach"
   },
   {
     "name": "trainers",
     "path": "/trainers",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\trainers.vue",
-    "chunkName": "pages/trainers",
-    "_name": "_a7f77a28"
+    "chunkName": "pages/trainers"
   },
   {
     "name": "course-slug",
     "path": "/course/:slug?",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
-    "chunkName": "pages/course/_slug",
-    "_name": "_9088a91e"
+    "chunkName": "pages/course/_slug"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_46ee4134"
+    "chunkName": "pages/index"
   }
 ]
