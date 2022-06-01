@@ -5,6 +5,9 @@
   "Carousel": {
     "description": "Auto imported from components/carousel.vue"
   },
+  "Clients": {
+    "description": "Auto imported from components/clients.vue"
+  },
   "Companies": {
     "description": "Auto imported from components/companies.vue"
   },

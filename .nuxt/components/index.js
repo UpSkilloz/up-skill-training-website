@@ -1,5 +1,6 @@
 export { default as BackToTop } from '../..\\components\\back-to-top.vue'
 export { default as Carousel } from '../..\\components\\carousel.vue'
+export { default as Clients } from '../..\\components\\clients.vue'
 export { default as Companies } from '../..\\components\\companies.vue'
 export { default as ContactForm } from '../..\\components\\contact-form.vue'
 export { default as CtaSection } from '../..\\components\\cta-section.vue'

@@ -31,7 +31,7 @@
     <div class="features">
       <index-features />
     </div>
-    <Carousel />
+    <clients />
     <div id="schedules" class="schedules-section">
       <div class="container">
         <div class="row">
@@ -76,7 +76,6 @@
 
 <script>
 import 'animate.css'
-import { validationMixin } from 'vuelidate'
 import { required, email } from 'vuelidate/lib/validators'
 import BackToTop from '~/components/back-to-top.vue'
 import IndexHero from '~/components/index-hero.vue'
@@ -85,7 +84,7 @@ import indexFeatures from '~/components/index-features.vue'
 import CtaSection from '~/components/cta-section.vue'
 import FooterSection from '~/components/footer-section.vue'
 import ScheduleForm from '~/components/schedule-form.vue'
-import Carousel from '~/components/carousel.vue'
+import Clients from '~/components/clients.vue'
 // import CtaVideo from '~/components/cta-video.vue'
 
 export default {
@@ -97,10 +96,9 @@ export default {
     CtaSection,
     FooterSection,
     ScheduleForm,
-    Carousel,
+    Clients,
     // CtaVideo,
   },
-  mixins: [validationMixin],
   data() {
     return {
       email: null,

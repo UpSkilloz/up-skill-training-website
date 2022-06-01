@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<BackToTop>` | `<back-to-top>` (components/back-to-top.vue)
 - `<Carousel>` | `<carousel>` (components/carousel.vue)
+- `<Clients>` | `<clients>` (components/clients.vue)
 - `<Companies>` | `<companies>` (components/companies.vue)
 - `<ContactForm>` | `<contact-form>` (components/contact-form.vue)
 - `<CtaSection>` | `<cta-section>` (components/cta-section.vue)
