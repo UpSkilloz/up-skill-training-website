@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <GtmBody />
     <div class="row">
       <div
         v-for="course in courses"
@@ -33,11 +34,14 @@
 </template>
 
 <script>
+import '../gtm.js'
+import GtmBody from '~/components/gtm-body.vue'
+
 export default {
+  components: { GtmBody },
   layout: 'page-layout',
   async asyncData({ $content }) {
     const courses = await $content('courses').sortBy('title', 'asc').fetch()
-
     return { courses }
   },
 }

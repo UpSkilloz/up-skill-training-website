@@ -1,5 +1,6 @@
 <template>
   <div id="top" class="page">
+    <GtmBody />
     <navbar />
     <index-hero />
     <div class="container">
@@ -86,6 +87,8 @@ import FooterSection from '~/components/footer-section.vue'
 import ScheduleForm from '~/components/schedule-form.vue'
 import Clients from '~/components/clients.vue'
 // import CtaVideo from '~/components/cta-video.vue'
+import '../gtm.js'
+import GtmBody from '~/components/gtm-body.vue'
 
 export default {
   components: {
@@ -97,7 +100,7 @@ export default {
     FooterSection,
     ScheduleForm,
     Clients,
-    // CtaVideo,
+    GtmBody,
   },
   data() {
     return {

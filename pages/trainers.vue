@@ -1,5 +1,6 @@
 <template>
   <div>
+    <GtmBody />
     <div class="container">
       <b-row v-for="reps in reps" :key="reps.id" class="repProfile mt-4">
         <b-col sm="12" md="6" class="mb-5">
@@ -78,7 +79,11 @@
 </template>
 
 <script>
+import '../gtm.js'
+import GtmBody from '~/components/gtm-body.vue'
+
 export default {
+  components: { GtmBody },
   layout: 'page-layout',
   async asyncData({ $content }) {
     const about = await $content('about').fetch()

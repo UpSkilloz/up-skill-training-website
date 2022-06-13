@@ -1,5 +1,6 @@
 <template>
   <div>
+    <GtmBody />
     <div class="contactHero">
       <div class="row">
         <div class="col-6">
@@ -41,8 +42,10 @@
 
 <script>
 import contactForm from '~/components/contact-form.vue'
+import '../gtm.js'
+import GtmBody from '~/components/gtm-body.vue'
 export default {
-  components: { contactForm },
+  components: { contactForm, GtmBody },
   layout: 'page-layout',
 }
 </script>

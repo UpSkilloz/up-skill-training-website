@@ -1,5 +1,6 @@
 <template>
   <div>
+    <GtmBody />
     <div v-for="approach of approach" :key="approach.id" class="row bennyboy">
       <div class="col-sm-12 col-md-4">
         <div
@@ -25,7 +26,11 @@
 </template>
 
 <script>
+import '../gtm.js'
+import GtmBody from '~/components/gtm-body.vue'
+
 export default {
+  components: { GtmBody },
   layout: 'page-layout',
   async asyncData({ $content }) {
     const approach = await $content('approach').fetch()

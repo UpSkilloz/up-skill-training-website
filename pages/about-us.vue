@@ -1,17 +1,24 @@
 <template>
-  <div class="container px-4">
-    <b-row class="mt-5">
-      <b-col-12 class="mb-5">
-        <p>
-          <nuxt-content :document="about[0]" />
-        </p>
-      </b-col-12>
-    </b-row>
+  <div>
+    <GtmBody />
+    <div class="container px-4">
+      <b-row class="mt-5">
+        <b-col-12 class="mb-5">
+          <p>
+            <nuxt-content :document="about[0]" />
+          </p>
+        </b-col-12>
+      </b-row>
+    </div>
   </div>
 </template>
 
 <script>
+import '../gtm.js'
+import GtmBody from '~/components/gtm-body.vue'
+
 export default {
+  components: { GtmBody },
   layout: 'page-layout',
   async asyncData({ $content }) {
     const about = await $content('about').fetch()

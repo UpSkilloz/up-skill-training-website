@@ -14,6 +14,7 @@ You can directly use them in pages and other components without the need to impo
 - `<CtaSection>` | `<cta-section>` (components/cta-section.vue)
 - `<CtaVideo>` | `<cta-video>` (components/cta-video.vue)
 - `<FooterSection>` | `<footer-section>` (components/footer-section.vue)
+- `<GtmBody>` | `<gtm-body>` (components/gtm-body.vue)
 - `<IndexFeatures>` | `<index-features>` (components/index-features.vue)
 - `<IndexHero>` | `<index-hero>` (components/index-hero.vue)
 - `<NavbarSchedule>` | `<navbar-schedule>` (components/navbar-schedule.vue)

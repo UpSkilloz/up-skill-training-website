@@ -23,6 +23,9 @@
   "FooterSection": {
     "description": "Auto imported from components/footer-section.vue"
   },
+  "GtmBody": {
+    "description": "Auto imported from components/gtm-body.vue"
+  },
   "IndexFeatures": {
     "description": "Auto imported from components/index-features.vue"
   },
