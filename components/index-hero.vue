@@ -1,28 +1,14 @@
 <template>
   <div class="hero">
-    <div
-      class="viewpoint d-flex flex-column justify-content-around align-items-center"
-    >
+    <div class="viewpoint d-flex flex-column justify-content-around align-items-center">
       <img src="@/static/images/logo_icon_light.svg" alt class="heroIcon" />
-      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">
-        UpSkill Training
-      </h1>
+      <h1 class="display-5 animate__animated animate__zoomInDown animate__slow">UpSkill Training</h1>
       <h3
-<<<<<<< Updated upstream
         style="text-align: center"
-=======
-        style="text-align: center; max-width: 60%"
->>>>>>> Stashed changes
         class="animate__animated animate__fadeIn animate__delay-1s"
-      >
-        “Delivering high performance sales training”
-      </h3>
+      >“Delivering high performance sales training”</h3>
       <a href="/courses">
-        <div
-          class="ctaButton animate__animated animate__tada animate__delay-2s"
-        >
-          View our Courses
-        </div>
+        <div class="ctaButton animate__animated animate__tada animate__delay-2s">View our Courses</div>
       </a>
     </div>
   </div>
@@ -62,16 +48,8 @@ export default {}
   color: white;
 }
 @media screen and (max-width: 768px) {
-<<<<<<< Updated upstream
   .hero img {
     width: 70%;
-=======
-  .hero {
-    height: 80vh;
-  }
-  .viewpoint {
-    height: 70vh;
->>>>>>> Stashed changes
   }
 }
 </style>

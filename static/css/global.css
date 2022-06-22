@@ -118,7 +118,6 @@ a:focus {
   background: var(--colour-secondary);
   border-radius: var(--space-sm);
 }
-<<<<<<< Updated upstream
 .ctaButtonInverse {
   padding: var(--space-md);
   background: var(--colour-secondary);
@@ -146,14 +145,3 @@ a:focus {
     height: auto;
   }
 }
-=======
-@media screen and (max-width: 768px) {
-  .btn {
-    padding: none;
-  }
-  .ctaButton-dark {
-    padding: none;
-    font-size: calc(var(--space-md) * 0.8);
-  }
-}
->>>>>>> Stashed changes

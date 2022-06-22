@@ -14,12 +14,14 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 import nuxt_plugin_plugin_42b529ad from 'nuxt_plugin_plugin_42b529ad' // Source: .\\components\\plugin.js (mode: 'all')
 import nuxt_plugin_bootstrapvue_8912f102 from 'nuxt_plugin_bootstrapvue_8912f102' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_gtm_ac5a57b4 from 'nuxt_plugin_gtm_ac5a57b4' // Source: .\\gtm.js (mode: 'all')
 import nuxt_plugin_pluginclient_9a40283a from 'nuxt_plugin_pluginclient_9a40283a' // Source: .\\content\\plugin.client.js (mode: 'client')
 import nuxt_plugin_pluginserver_18995d6b from 'nuxt_plugin_pluginserver_18995d6b' // Source: .\\content\\plugin.server.js (mode: 'server')
 import nuxt_plugin_workbox_123b5a6c from 'nuxt_plugin_workbox_123b5a6c' // Source: .\\workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_5fe9ba28 from 'nuxt_plugin_metaplugin_5fe9ba28' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
 import nuxt_plugin_axios_3cf80d60 from 'nuxt_plugin_axios_3cf80d60' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_vueawesomeSwiper_36cb9b39 from 'nuxt_plugin_vueawesomeSwiper_36cb9b39' // Source: ..\\plugins\\vue-awesomeSwiper.js (mode: 'client')
+import nuxt_plugin_gtm_5e4639ea from 'nuxt_plugin_gtm_5e4639ea' // Source: ..\\plugins\\gtm (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -69,7 +71,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"UpSkill Training","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fpng","href":"\u002Ffavicon.png"}],"style":[],"script":[]},
+    head: {"title":"UpSkill Training","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fpng","href":"\u002Ffavicon.png"}],"style":[],"script":[{"hid":"gtm-script","innerHTML":"if(!window._gtm_init){window._gtm_init=1;(function(w,n,d,m,e,p){w[d]=(w[d]==1||n[d]=='yes'||n[d]==1||n[m]==1||(w[e]&&w[e][p]&&w[e][p]()))?1:0})(window,navigator,'doNotTrack','msDoNotTrack','external','msTrackingProtectionEnabled');(function(w,d,s,l,x,y){w[x]={};w._gtm_inject=function(i){if(w.doNotTrack||w[x][i])return;w[x][i]=1;w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https:\u002F\u002Fwww.googletagmanager.com\u002Fgtm.js?id='+i;f.parentNode.insertBefore(j,f);};w[y]('GTM-MFJ49QN')})(window,document,'script','dataLayer','_gtm_ids','_gtm_inject')}"}],"noscript":[{"hid":"gtm-noscript","pbody":true,"innerHTML":"\u003Ciframe src=\"https:\u002F\u002Fwww.googletagmanager.com\u002Fns.html?id=GTM-MFJ49QN&\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\" title=\"gtm\"\u003E\u003C\u002Fiframe\u003E"}],"__dangerouslyDisableSanitizersByTagID":{"gtm-script":["innerHTML"],"gtm-noscript":["innerHTML"]}},
 
     router,
     nuxt: {
@@ -191,6 +193,10 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_bootstrapvue_8912f102(app.context, inject)
   }
 
+  if (typeof nuxt_plugin_gtm_ac5a57b4 === 'function') {
+    await nuxt_plugin_gtm_ac5a57b4(app.context, inject)
+  }
+
   if (process.client && typeof nuxt_plugin_pluginclient_9a40283a === 'function') {
     await nuxt_plugin_pluginclient_9a40283a(app.context, inject)
   }
@@ -213,6 +219,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_vueawesomeSwiper_36cb9b39 === 'function') {
     await nuxt_plugin_vueawesomeSwiper_36cb9b39(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_gtm_5e4639ea === 'function') {
+    await nuxt_plugin_gtm_5e4639ea(app.context, inject)
   }
 
   // Lock enablePreview in context
