@@ -2,92 +2,50 @@
   {
     "name": "about-us",
     "path": "/about-us",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
-    "chunkName": "pages/about-us",
-    "_name": "_06685528"
-=======
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\about-us.vue",
     "chunkName": "pages/about-us",
     "_name": "_5b2a6964"
->>>>>>> Stashed changes
   },
   {
     "name": "contact",
     "path": "/contact",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_35b35b02"
-=======
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
     "_name": "_134d20e0"
->>>>>>> Stashed changes
   },
   {
     "name": "courses",
     "path": "/courses",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\courses.vue",
-    "chunkName": "pages/courses",
-    "_name": "_2f5bce9a"
-=======
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\courses.vue",
     "chunkName": "pages/courses",
     "_name": "_0cf59478"
->>>>>>> Stashed changes
   },
   {
     "name": "our-approach",
     "path": "/our-approach",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\our-approach.vue",
-    "chunkName": "pages/our-approach",
-    "_name": "_30ce1dd2"
-=======
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\our-approach.vue",
     "chunkName": "pages/our-approach",
     "_name": "_472625f9"
->>>>>>> Stashed changes
   },
   {
     "name": "trainers",
     "path": "/trainers",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\trainers.vue",
-    "chunkName": "pages/trainers",
-    "_name": "_a7f77a28"
-=======
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\trainers.vue",
     "chunkName": "pages/trainers",
     "_name": "_fcb98e64"
->>>>>>> Stashed changes
   },
   {
     "name": "course-slug",
     "path": "/course/:slug?",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
-    "chunkName": "pages/course/_slug",
-    "_name": "_9088a91e"
-=======
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\course\\\\_slug.vue",
     "chunkName": "pages/course/_slug",
     "_name": "_49d512cf"
->>>>>>> Stashed changes
   },
   {
     "name": "index",
     "path": "/",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_46ee4134"
-=======
     "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
     "_name": "_095be692"
->>>>>>> Stashed changes
   }
 ]
