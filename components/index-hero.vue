@@ -8,7 +8,11 @@
         UpSkill Training
       </h1>
       <h3
+<<<<<<< Updated upstream
         style="text-align: center"
+=======
+        style="text-align: center; max-width: 60%"
+>>>>>>> Stashed changes
         class="animate__animated animate__fadeIn animate__delay-1s"
       >
         “Delivering high performance sales training”
@@ -58,8 +62,16 @@ export default {}
   color: white;
 }
 @media screen and (max-width: 768px) {
+<<<<<<< Updated upstream
   .hero img {
     width: 70%;
+=======
+  .hero {
+    height: 80vh;
+  }
+  .viewpoint {
+    height: 70vh;
+>>>>>>> Stashed changes
   }
 }
 </style>

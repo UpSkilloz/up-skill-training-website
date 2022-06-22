@@ -12,6 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
+<<<<<<< Updated upstream
 import nuxt_plugin_plugin_4137d6d3 from 'nuxt_plugin_plugin_4137d6d3' // Source: .\\components\\plugin.js (mode: 'all')
 import nuxt_plugin_bootstrapvue_e60c90b6 from 'nuxt_plugin_bootstrapvue_e60c90b6' // Source: .\\bootstrap-vue.js (mode: 'all')
 import nuxt_plugin_pluginclient_285b9609 from 'nuxt_plugin_pluginclient_285b9609' // Source: .\\content\\plugin.client.js (mode: 'client')
@@ -19,6 +20,16 @@ import nuxt_plugin_pluginserver_e3d5f0de from 'nuxt_plugin_pluginserver_e3d5f0de
 import nuxt_plugin_workbox_51571f12 from 'nuxt_plugin_workbox_51571f12' // Source: .\\workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_4d82e192 from 'nuxt_plugin_metaplugin_4d82e192' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
 import nuxt_plugin_axios_79f4af76 from 'nuxt_plugin_axios_79f4af76' // Source: .\\axios.js (mode: 'all')
+=======
+import nuxt_plugin_plugin_42b529ad from 'nuxt_plugin_plugin_42b529ad' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_8912f102 from 'nuxt_plugin_bootstrapvue_8912f102' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_pluginclient_9a40283a from 'nuxt_plugin_pluginclient_9a40283a' // Source: .\\content\\plugin.client.js (mode: 'client')
+import nuxt_plugin_pluginserver_18995d6b from 'nuxt_plugin_pluginserver_18995d6b' // Source: .\\content\\plugin.server.js (mode: 'server')
+import nuxt_plugin_workbox_123b5a6c from 'nuxt_plugin_workbox_123b5a6c' // Source: .\\workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_5fe9ba28 from 'nuxt_plugin_metaplugin_5fe9ba28' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
+import nuxt_plugin_iconplugin_569a6f40 from 'nuxt_plugin_iconplugin_569a6f40' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
+import nuxt_plugin_axios_3cf80d60 from 'nuxt_plugin_axios_3cf80d60' // Source: .\\axios.js (mode: 'all')
+>>>>>>> Stashed changes
 import nuxt_plugin_vueawesomeSwiper_36cb9b39 from 'nuxt_plugin_vueawesomeSwiper_36cb9b39' // Source: ..\\plugins\\vue-awesomeSwiper.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -69,7 +80,11 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
+<<<<<<< Updated upstream
     head: {"title":"UpSkill Training","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fpng","href":"\u002Ffavicon.png"}],"style":[],"script":[]},
+=======
+    head: {"title":"UP SKILL TRAINING","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+>>>>>>> Stashed changes
 
     router,
     nuxt: {
@@ -183,6 +198,7 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
+<<<<<<< Updated upstream
   if (typeof nuxt_plugin_plugin_4137d6d3 === 'function') {
     await nuxt_plugin_plugin_4137d6d3(app.context, inject)
   }
@@ -209,6 +225,38 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_axios_79f4af76 === 'function') {
     await nuxt_plugin_axios_79f4af76(app.context, inject)
+=======
+  if (typeof nuxt_plugin_plugin_42b529ad === 'function') {
+    await nuxt_plugin_plugin_42b529ad(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_bootstrapvue_8912f102 === 'function') {
+    await nuxt_plugin_bootstrapvue_8912f102(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_pluginclient_9a40283a === 'function') {
+    await nuxt_plugin_pluginclient_9a40283a(app.context, inject)
+  }
+
+  if (process.server && typeof nuxt_plugin_pluginserver_18995d6b === 'function') {
+    await nuxt_plugin_pluginserver_18995d6b(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_workbox_123b5a6c === 'function') {
+    await nuxt_plugin_workbox_123b5a6c(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_metaplugin_5fe9ba28 === 'function') {
+    await nuxt_plugin_metaplugin_5fe9ba28(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_iconplugin_569a6f40 === 'function') {
+    await nuxt_plugin_iconplugin_569a6f40(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_axios_3cf80d60 === 'function') {
+    await nuxt_plugin_axios_3cf80d60(app.context, inject)
+>>>>>>> Stashed changes
   }
 
   if (process.client && typeof nuxt_plugin_vueawesomeSwiper_36cb9b39 === 'function') {

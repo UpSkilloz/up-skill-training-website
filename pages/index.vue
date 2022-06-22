@@ -37,6 +37,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-6 p-4">
+<<<<<<< Updated upstream
             <!-- <cta-video /> -->
             <p>
               We have successfully trained field and telephone-based sales teams
@@ -63,6 +64,10 @@
               For more information on transforming your sales team and results,
               call 1300 144 838 or complete the inquiry form.
             </p>
+=======
+            a
+            <cta-video />
+>>>>>>> Stashed changes
           </div>
           <div class="col-md-12 col-lg-6 p-4">
             <ScheduleForm />
