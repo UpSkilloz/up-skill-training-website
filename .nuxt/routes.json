@@ -2,50 +2,43 @@
   {
     "name": "about-us",
     "path": "/about-us",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\about-us.vue",
-    "chunkName": "pages/about-us",
-    "_name": "_5b2a6964"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\about-us.vue",
+    "chunkName": "pages/about-us"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_134d20e0"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact"
   },
   {
     "name": "courses",
     "path": "/courses",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\courses.vue",
-    "chunkName": "pages/courses",
-    "_name": "_0cf59478"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\courses.vue",
+    "chunkName": "pages/courses"
   },
   {
     "name": "our-approach",
     "path": "/our-approach",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\our-approach.vue",
-    "chunkName": "pages/our-approach",
-    "_name": "_472625f9"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\our-approach.vue",
+    "chunkName": "pages/our-approach"
   },
   {
     "name": "trainers",
     "path": "/trainers",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\trainers.vue",
-    "chunkName": "pages/trainers",
-    "_name": "_fcb98e64"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\trainers.vue",
+    "chunkName": "pages/trainers"
   },
   {
     "name": "course-slug",
     "path": "/course/:slug?",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\course\\\\_slug.vue",
-    "chunkName": "pages/course/_slug",
-    "_name": "_49d512cf"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\course\\\\_slug.vue",
+    "chunkName": "pages/course/_slug"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\Projects\\\\NuxtJS\\\\up-skill-training-website-nick\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_095be692"
+    "component": "C:\\\\Users\\\\benje\\\\Documents\\\\GitLab\\\\up-skill-training-website\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]
